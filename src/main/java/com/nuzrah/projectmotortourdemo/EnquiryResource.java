@@ -96,7 +96,7 @@ public class EnquiryResource {
 		enquiry.setEnquiryDescription(enquiryDescription);
 		enquiry.setPhoneNumber(phoneNumber);
 		
-		//boolean result = EnquiryDao.getInstance().add(enquiry);
+		EnquiryDao.getInstance().add(enquiry);
 	
 	}
 
