@@ -4,6 +4,9 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import jakarta.ws.rs.FormParam;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
@@ -28,6 +31,8 @@ public class EnquiryResource {
 //		return "Yes Working!";
 //	}
 	
+	private static Logger logger = LogManager.getLogger(EnquiryResource.class);
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getAll() {
@@ -44,6 +49,9 @@ public class EnquiryResource {
 			List<Enquiry> enquiries = (List<Enquiry>)object; //Casting.
 			
 			String jsonString = gson.toJson(enquiries);
+			
+			logger.info("All enquries were fetched from the database successfully!");
+			
 			return Response
 					.status(200)
 					.entity(jsonString)
@@ -53,6 +61,9 @@ public class EnquiryResource {
 			Map<String, String> errMsg = (Map<String, String>)object; //Casting.
 			
 			String jsonString = gson.toJson(errMsg);
+			
+			logger.error("Unable to fetch all enquiries from the database");
+			
 			return Response
 					.status(200)
 					.entity(jsonString)
@@ -62,7 +73,7 @@ public class EnquiryResource {
 	}
 	
 	@GET
-	@Path("{id}")
+	@Path("{enquiryID}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getAnEnquiry(@PathParam("enquiryID") String enquiryID) {
 		
@@ -72,6 +83,8 @@ public class EnquiryResource {
 		
 		Gson gson = new Gson();
 		String jsonString = gson.toJson(enquiry);
+		
+		logger.info("Enquiry was fetched from the database successfully!");
 		
 		return Response
 				.status(200)
@@ -97,6 +110,8 @@ public class EnquiryResource {
 		enquiry.setPhoneNumber(phoneNumber);
 		
 		EnquiryDao.getInstance().add(enquiry);
+		
+		logger.info("Enquiry was submitted to the database successfully!");
 	
 	}
 
