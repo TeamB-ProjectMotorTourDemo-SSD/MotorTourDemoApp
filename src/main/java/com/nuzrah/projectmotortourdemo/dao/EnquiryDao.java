@@ -76,7 +76,7 @@ public class EnquiryDao {
 			
 			Connection conn = Configs.getDbConnection();
 			
-			String sql = "SELECT * FROM tbl_enquiry WHERE id = ?";//Query to be execute
+			String sql = "SELECT * FROM tbl_enquiry WHERE enquiryID = ?";//Query to be execute
 			PreparedStatement preparedStatement = conn.prepareStatement(sql);
 			preparedStatement.setInt(1, id); //binding the parameter value, 1 is for specify first parameter.
 			
@@ -109,6 +109,8 @@ public class EnquiryDao {
 			Connection connection = Configs.getDbConnection();
 			String sql = "INSERT INTO `tbl_enquiry` (`firstName`,`lastName`, `enquiryCategory`, `enquiryDescription`, `phoneNumber`) " + 
 						"VALUES (?,?,?,?,?)";
+//			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
+//					"VALUES (?,?,?,?,?)";
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			
 			stmt.setString(1, enquiry.getFirstName());
