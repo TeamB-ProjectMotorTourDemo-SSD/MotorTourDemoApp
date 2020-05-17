@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Test add enquiry here</title>
+<title>Testing add enquiry</title>
 </head>
 <body>
 	<form action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry" method="post">
