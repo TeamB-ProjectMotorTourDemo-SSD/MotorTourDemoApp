@@ -107,10 +107,10 @@ public class EnquiryDao {
 		if(enquiry != null) {
 			
 			Connection connection = Configs.getDbConnection();
-//			String sql = "INSERT INTO `tbl_enquiry` (`firstName`,`lastName`, `enquiryCategory`, `enquiryDescription`, `phoneNumber`) " + 
-//						"VALUES (?,?,?,?,?)";
-			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
-					"VALUES (?,?,?,?,?)";
+			String sql = "INSERT INTO `tbl_enquiry` (`firstName`,`lastName`, `enquiryCategory`, `enquiryDescription`, `phoneNumber`) " + 
+						"VALUES (?,?,?,?,?)";
+//			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
+//					"VALUES (?,?,?,?,?)";
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			
 			stmt.setString(1, enquiry.getFirstName());
