@@ -7,8 +7,8 @@
 <title>Testing add enquiry</title>
 </head>
 <body>
-<!-- 	<form action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry" method="post"> -->
-	<form action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry" method="post">
+	<form action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry" method="post">
+<!-- 	<form action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry" method="post"> -->
 		<label>Enter FirstName</label><br/>
 		<input type="text" name="firstName" ><br/>
 		<label>Enter lastName</label><br/>

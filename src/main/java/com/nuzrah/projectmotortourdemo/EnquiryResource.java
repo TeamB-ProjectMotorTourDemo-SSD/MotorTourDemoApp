@@ -31,7 +31,7 @@ public class EnquiryResource {
 //		return "Yes Working!";
 //	}
 	
-	private static Logger logger = LogManager.getLogger(EnquiryResource.class);
+	private static final Logger logger = LogManager.getLogger(EnquiryResource.class);
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
