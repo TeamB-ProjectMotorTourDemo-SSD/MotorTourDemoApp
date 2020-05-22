@@ -124,5 +124,6 @@ public class TourRideOutResource {
 		logger.info("Tour and Ride-Out was submitted to the database successfully!");
 	
 	}
+	
 
 }
