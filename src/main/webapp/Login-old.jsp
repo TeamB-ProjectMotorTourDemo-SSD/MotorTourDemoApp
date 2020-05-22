@@ -20,11 +20,11 @@ input[type=text], input[type=password] {
  border: 1px solid #ccc;
  box-sizing: border-box;
 }
-.img {
+img {
   opacity: 0.5;
 }
 
-.img:hover {
+img:hover {
   opacity: 1.0;
 }
 button {
