@@ -9,11 +9,67 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/cpanel.css"/>
+	
+    <title>CPanel</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  
+<div class="jumbotron text-center">
+  <h1>Motor Cycle Tour Ride out</h1>
+</div>
+   
+ 
+    <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card">
+      <img src="/projectmotortourdemo/src/main/webapp/img/usermanagementicon.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>User Management</u></h5>
+        <p class="card-text"></p>
+       <a href="#" class="btn btn-primary">Click Here</a>  
+      </div>
+    </div>
+  </div>
+  
+  <div class="col mb-4">
+    <div class="card">
+      <img src="/projectmotortourdemo/src/main/webapp/img/tour.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tour Ride-out Management</h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">Click Here</a>  
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="/projectmotortourdemo/src/main/webapp/img/enquiry.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Enquiry Management</h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">Click Here</a> 
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="/projectmotortourdemo/src/main/webapp/img/booking.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Booking Management</h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">Click Here</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br>  <br> <br> <br><br> <br> <br> <br> <br> <br> <br><br> <br>
+<div>
+<footer class="container-fluid text-center">
+  <p>Motorcycle Tour Ride Out <a href="https://www.motorcycletour.com" title="Visit motorcycletour">www.motorcycle.com</a></p>
+</footer>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
