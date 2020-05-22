@@ -3,157 +3,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
 <title>Login</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+img {
+  opacity: 0.5;
 }
 
-/* Set a style for all buttons */
+img:hover {
+  opacity: 1.0;
+}
 button {
-  background-color: #4682b4;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+ background-color: #4682b4;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
 }
 
 button:hover {
-  opacity: 0.8;
+ opacity: 0.8;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
 .imgcontainer {
-  text-align: center;
-  margin: 12px 0 12px 0;
-  position: relative;
+ text-align: center;
+ width: auto;
+ margin: 24px 0 12px 0;
 }
 
-img.user {
-  width: 40%;
-    border-radius: 50%;
+img.avatar {
+ width: 40%;
+ border-radius: 50%;
 }
 
-.container {
-  padding: 16px;
+div.container {
+border: 8px solid #f1f1f1;
+
+ padding: 20px;
+ width: 600px;
+}
+
+.input {
+ padding: 50px;
 }
 
 span.psw {
-  float: right;
-  padding-top: 16px;
+ float: right;
+ padding-top: 16px;
 }
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
 }
 </style>
 </head>
 <body>
-<form action ="http://localhost:8080/MotorTourRide/motorapi/login" method ="post">
+<form id = "loginform" action ="http://localhost:8080/MotorTourRide/motorapi/login" method ="post">
 
-    <div class="imgcontainer">
-     <img src="img/user.jpg" class="img-circle" alt="user" width= 200 height= 200>
-    </div>
 
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+  <div class="container" style="background-image: url('img/login.jpg');"> 
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
+ <div class="imgcontainer">
+ 
+   <img src="img/user.jpg" alt="User" class="avatar">
+ </div>
+<label for="username"><b>Email ID</b></label>
+ <input type="text" placeholder="emailid" name="emailid" id="user" required>
+   <label for="psw"><b>Password</b></label>
+   <input type="password" placeholder="Password" name="Pass" id="Pass" required>
+   <button class="btn btn-primary" onClick="formSubmit(document.getElementById('Pass').value, document.getElementById('Einr').value);return false;" type="submit" style=" margin: 10px 0px;">Login</button>
+ </div>
+ </div>
   </form>
 
 
 
 </body>
 </html>
-
-
