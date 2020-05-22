@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MotorTourRideOut</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<link rel="stylesheet" type="text/css" href="CSS/indexstyle.css" />
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+<!--topNavbar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="img/logo.jpg" class="img-circle" alt="logo" width="80">  
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       <li> <a href="#home">Home</a></li>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#contact">Contact Us</a></li>
+         <li><a href="#gallery">Gallery</a></li>
+         <li><a href="Registration.jsp"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
+         <li><a href="Login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="img/tour_ride1.jpg" style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="img/tour_ride2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/tour_ride3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="img/tour_ride4.jpg" style="width:100%">
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+
+
+<div class="jumbotron text-center">
+  <h1>Motorcycle Tour Ride Out</h1> 
+  <p>Ride Edge Of the World!</p> 
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid text-center bg-grey" style="background-image: url('img/aboutus.jpg');"> 
+      <h2>About Us</h2><br>
+      <h4>We believe that the best way to explore SriLanka is by motorcycle! With that in mind we created our exclusive bike tours,
+       choosing the most interesting and spectacular places in the island. Riding with us you will see historical sites,
+       National parks and beautiful city views. Our guides will provide you with loads of experiences
+        and reveal SriLanka’s hidden magic.</h4><br>
+    </div>
+ 
+<!-- Container (Our Team Section) -->
+<div id="our team" class="container-fluid text-center bg-Blue">
+  <h2>Our Team</h2><br>
+  <h4>What we have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/team1.jpg" alt="team1" width="300" height="200">
+        <p><strong>John</strong></p>
+        <p>Founder and director</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/team2.jpg" alt="team2" width="300" height="200">
+        <p><strong>Sam</strong></p>
+        <p>Manager</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="img/team3.jpg" alt="team3" width="300" height="200">
+        <p><strong>Peter</strong></p>
+        <p>Tour Guide</p>
+      </div>
+    </div>
+  </div><br>
+  </div>
+     
+  
+  <!-- Container (Gallery Section) -->
+<div id="gallery" class="container-fluid text-center bg-grey">
+  <h2>Gallery</h2><br>
+  <p>Memories</p>
+  <!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/gallery1.jpg" style="width:100%">
+    <img src="img/gallery2.jpg" style="width:100%"> 
+  </div>
+    <img src="img/galler3.jpg" style="width:100%">
+    <img src="img/galler4.jpg" style="width:100%">
+  </div>
+  </div><br>
+  
+  
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-white">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Wellawatha, Colombo, negombo</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +0094763785</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid text-center bg-grey">
+  <p>Motorcycle Tour Ride Out <a href="https://www.motorcycletour.com" title="Visit motorcycletour">www.motorcycle.com</a></p>
+</footer>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
