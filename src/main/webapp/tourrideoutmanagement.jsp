@@ -90,8 +90,8 @@ select {
   <div class="column" style="background-color:#f5f6f7;">
     <h2>Tour Ride-out Form</h2>
     <hr>
-    <label for="Tour_ID"><b>Tour ID</b></label>
-    <input type="text" placeholder="Tour_ID" name="Tour_ID" required>
+<!--     <label for="Tour_ID"><b>Tour ID</b></label> -->
+<!--     <input type="text" placeholder="Tour_ID" name="Tour_ID" required> -->
 
     <label for="Tour_Name"><b>Tour Name</b></label>
     <input type="text" placeholder="Tour_Name" name="Tour_Name" required>
@@ -99,8 +99,8 @@ select {
     <label for="Tour_Leader_FName"><b>Tour Leader First Name</b></label>
     <input type="text" placeholder="Tour_Leader_FName" name="Tour_Leader_FName" required>
     
-    <label for="Tour_Leader_LName"><b>Tour Leader Last Name</b></label>
-    <input type="text" placeholder="Tour_Leader_LName" name="Tour_Leader_LName" required>
+<!--     <label for="Tour_Leader_LName"><b>Tour Leader Last Name</b></label> -->
+<!--     <input type="text" placeholder="Tour_Leader_LName" name="Tour_Leader_LName" required> -->
     
     <label for="Start_Location"><b>Start Location</b></label>
     <input type="text" placeholder="Start_Location" name="Start_Location" required>
@@ -139,14 +139,14 @@ select {
       <tr>
         <th>Tour ID</th>
         <th>Tour Name</th>
-        <th>Tour Leader First Name</th>
-        <th>Tour Leader Last Name</th>
+<!--         <th>Tour Leader First Name</th> -->
+<!--         <th>Tour Leader Last Name</th> -->
         <th>Start Location</th>
         <th>End Location</th>
         <th>Total Duration</th>
-        <th>Legal Requirements</th>
+<!--         <th>Legal Requirements</th> -->
         <th>Availability</th>
-        <th>Description</th>
+<!--         <th>Description</th> -->
          <th><a href="#view" class="btn btn-primary" role="button">View</a></th>
         <th><a href="#update" class="btn btn-primary" role="button">Update</a></th>
         <th><a href="#delete" class="btn btn-primary" role="button">Delete</a></th>

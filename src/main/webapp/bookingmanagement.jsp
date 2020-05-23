@@ -96,8 +96,17 @@ select {
   <div class="column" style="background-color:#f5f6f7;">
     <h2>Booking Form</h2>
     <hr>
-    <label for="Booking_ID"><b>Booking ID</b></label>
-    <input type="text" placeholder="Booking_ID" name="Booking_ID" required>
+<!--     <label for="Booking_ID"><b>Booking ID</b></label> -->
+<!--     <input type="text" placeholder="Booking_ID" name="Booking_ID" required> -->
+
+	<label for=""><b>First Name</b></label>
+    <input type="text" placeholder="" name="" required>
+    
+    <label for=""><b>Last Name</b></label>
+    <input type="text" placeholder="" name="" required>
+    
+    <label for=""><b>Phone Number</b></label>
+    <input type="text" placeholder="" name="" required>
 
     <label for="Status"><b>Status</b></label>
     <input type="text" placeholder="Status" name="Status" required>
@@ -105,8 +114,11 @@ select {
     <label for="Total_Cost"><b>Total Cost</b></label>
     <input type="text" placeholder="Total_Cost" name="Total_Cost" required>
     
-    <label for="Feedback"><b>Feedback</b></label>
-    <input type="text" placeholder="Feedback" name="Feedback" required>
+<!--     <label for="Feedback"><b>Feedback</b></label> -->
+<!--     <textarea type="text" placeholder="Feedback" rows="5" placeholder="Feedback" name="Feedback" required></textarea> -->
+    
+    <label for="Feedback">Feedback</label>
+    <textarea class="form-control" id="Feedback" rows="3" name="Feedback" required></textarea>
     
     <button class="btn btn-primary" onClick="formSubmit(document.getElementById('Pass').value, document.getElementById('Einr').value);return false;" type="submit" style=" margin: 10px 0px;">Submit</button>
   </div>
@@ -118,15 +130,26 @@ select {
   <table class="table">
     <thead>
       <tr>
-        <th>Booking ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Status</th>
         <th>Total Cost</th>
         <th>Feedback</th>
-        <th><a href="#view" class="btn btn-primary" role="button">View</a></th>
-        <th><a href="#update" class="btn btn-primary" role="button">Update</a></th>
-        <th><a href="#delete" class="btn btn-primary" role="button">Delete</a></th>  
+        <th></th>
+        <th></th>
+        <th></th>  
       </tr>
     </thead>
+    <tbody>
+    	<td>First Name</td>
+        <td>Last Name</td>
+        <td>Status</td>
+        <td>Total Cost</td>
+        <td>Feedback</td>
+        <td><a href="#view" class="btn btn-primary" role="button">View</a></td>
+        <td><a href="#update" class="btn btn-primary" role="button">Update</a></td>
+        <td><a href="#delete" class="btn btn-primary" role="button">Delete</a></td>
+    </tbody>
   </table>
 </div>
 </div> 
