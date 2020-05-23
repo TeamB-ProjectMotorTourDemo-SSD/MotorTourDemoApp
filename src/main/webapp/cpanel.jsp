@@ -24,7 +24,7 @@
     <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card">
-      <img src="/projectmotortourdemo/src/main/webapp/img/usermanagementicon.png" class="card-img-top" alt="...">
+      <img src="img/usermanagementicon.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"><u>User Management</u></h5>
         <p class="card-text"></p>
@@ -35,7 +35,7 @@
   
   <div class="col mb-4">
     <div class="card">
-      <img src="/projectmotortourdemo/src/main/webapp/img/tour.png" class="card-img-top" alt="...">
+      <img src="img/tour.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Tour Ride-out Management</h5>
         <p class="card-text"></p>
@@ -45,7 +45,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="/projectmotortourdemo/src/main/webapp/img/enquiry.png" class="card-img-top" alt="...">
+      <img src="img/enquiry.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Enquiry Management</h5>
         <p class="card-text"></p>
@@ -55,7 +55,7 @@
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="/projectmotortourdemo/src/main/webapp/img/booking.png" class="card-img-top" alt="...">
+      <img src="img/booking.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Booking Management</h5>
         <p class="card-text"></p>
