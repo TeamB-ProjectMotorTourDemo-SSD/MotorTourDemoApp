@@ -13,52 +13,49 @@
 	<link rel="stylesheet" type="text/css" href="css/cpanel.css"/>
 	
     <title>CPanel</title>
+ 
   </head>
   <body>
   
+ 
 <div class="jumbotron text-center">
   <h1>Motor Cycle Tour Ride out</h1>
 </div>
    
- 
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row text-center">
   <div class="col mb-4">
-    <div class="card">
-      <img src="img/usermanagementicon.png" class="card-img-top" alt="...">
+    <div class="thumbnail">
+      <img src="img/usermanagementicon.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title"><u>User Management</u></h5>
-        <p class="card-text"></p>
        <a href="#" class="btn btn-primary">Click Here</a>  
       </div>
     </div>
   </div>
   
   <div class="col mb-4">
-    <div class="card">
-      <img src="img/tour.png" class="card-img-top" alt="...">
+    <div class="thumbnail">
+      <img src="img/ridebicycle.jpg" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Tour Ride-out Management</h5>
-        <p class="card-text"></p>
         <a href="#" class="btn btn-primary">Click Here</a>  
       </div>
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card">
-      <img src="img/enquiry.png" class="card-img-top" alt="...">
+    <div class="thumbnail">
+      <img src="img/enquiry.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Enquiry Management</h5>
-        <p class="card-text"></p>
         <a href="#" class="btn btn-primary">Click Here</a> 
       </div>
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card">
-      <img src="img/booking.png" class="card-img-top" alt="...">
+    <div class="thumbnail">
+      <img src="img/booking.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Booking Management</h5>
-        <p class="card-text"></p>
         <a href="#" class="btn btn-primary">Click Here</a> 
       </div>
     </div>
