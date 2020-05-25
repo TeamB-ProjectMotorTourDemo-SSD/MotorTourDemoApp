@@ -99,15 +99,17 @@ public class EnquiryResource {
 							@FormParam("lastName") String lastName,
 							@FormParam("enquiryCategory") String enquiryCategory,
 							@FormParam("enquiryDescription") String enquiryDescription,
-							@FormParam("phoneNumber") int phoneNumber) throws ClassNotFoundException, SQLException {
+							@FormParam("phoneNumber") int phoneNumber,
+							@FormParam("email") String email) throws ClassNotFoundException, SQLException {
 		
 		Enquiry enquiry = new Enquiry();
 		
 		enquiry.setFirstName(firstName);
 		enquiry.setLastName(lastName);
-		enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.valueOf(enquiryCategory));
+		enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.getEnumByString(enquiryCategory));
 		enquiry.setEnquiryDescription(enquiryDescription);
 		enquiry.setPhoneNumber(phoneNumber);
+		enquiry.setEmail(email);
 		
 		EnquiryDao.getInstance().add(enquiry);
 		

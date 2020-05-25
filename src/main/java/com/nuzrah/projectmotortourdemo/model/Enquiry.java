@@ -1,15 +1,14 @@
 package com.nuzrah.projectmotortourdemo.model;
 
-import com.nuzrah.projectmotortourdemo.dao.ENQUIRY_CATEGORY;
-
 public class Enquiry {
 	
 	private int enquiryID;
 	private String firstName;
 	private String lastName;
-	private ENQUIRY_CATEGORY enquiryCategory;
+	private String enquiryCategory;
 	private String enquiryDescription;
 	private int phoneNumber;
+	private String email;
 	
 	public Enquiry() {
 		super();
@@ -17,8 +16,8 @@ public class Enquiry {
 	}
 	
 
-	public Enquiry(int enquiryID, String firstName, String lastName, ENQUIRY_CATEGORY enquiryCategory,
-			String enquiryDescription, int phoneNumber) {
+	public Enquiry(int enquiryID, String firstName, String lastName, String enquiryCategory,
+			String enquiryDescription, int phoneNumber, String email) {
 		super();
 		this.enquiryID = enquiryID;
 		this.firstName = firstName;
@@ -26,8 +25,9 @@ public class Enquiry {
 		this.enquiryCategory = enquiryCategory;
 		this.enquiryDescription = enquiryDescription;
 		this.phoneNumber = phoneNumber;
+		this.email = email;
 	}
-	
+
 
 	public int getEnquiryID() {
 		return enquiryID;
@@ -59,13 +59,13 @@ public class Enquiry {
 	}
 	
 
-	public ENQUIRY_CATEGORY getEnquiryCategory() {
+	public String getEnquiryCategory() {
 		return enquiryCategory;
 	}
 	
 
-	public void setEnquiryCategory(ENQUIRY_CATEGORY enquiryCategory) {
-		this.enquiryCategory = enquiryCategory;
+	public void setEnquiryCategory(String string) {
+		this.enquiryCategory = string;
 	}
 	
 
@@ -86,6 +86,16 @@ public class Enquiry {
 
 	public void setPhoneNumber(int phoneNumber) {
 		this.phoneNumber = phoneNumber;
+	}
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	

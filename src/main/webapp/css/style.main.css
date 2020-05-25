@@ -1,0 +1,528 @@
+/* [ -- Master Stylesheet -- ] */
+/* ##################################################
+
+:: Project Name: Motor Tours and Ride Outs
+:: Author: Team B - Nuzrah, Farha, Divya, Humaiyra
+
+
+################################################## */
+/* ##### Index of Stylesheet #####
+
+:: 1.0 Import Fonts
+:: 2.0 Base CSS
+:: 3.0 About Us CSS
+:: 4.0 Team CSS
+:: 5.0 Gallery CSS
+
+##### Index of Stylesheet #####  */
+
+/* ################ :: 8.0 Import Fonts ################# */
+@import
+	url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700")
+	;
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+/* ################ :: 8.0 Import CSS CDN ################# */
+@import
+	url("https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css")
+	;
+
+@import
+	url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css")
+	;
+
+/* ################ :: 8.0 Base CSS ################# */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	background-color: #fff;
+	color: #303030;
+}
+
+.txt-blue {
+	color: #4682b4;
+}
+
+.bg-theme {
+	background: #4682b4;
+	padding: 20px 10px !important;
+}
+
+.bg-White {
+	background-color: #fff;
+}
+
+.bg-grey {
+	background-color: #f6f6f6;
+}
+
+.bg-Blue {
+	background-color: #4682b4;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+}
+
+h4 {
+	color: #303030;
+	font-weight: 400;
+}
+
+.overflow-dots { 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  height: 2rem;
+}
+
+/* ################ :: 8.0 Navigation CSS ################# */
+nav.navbar {
+	z-index: 999999 !important;
+	margin-bottom: 0;
+	border: 0;
+	font-size: 18px !important;
+	border-radius: 0;
+}
+
+.nav-link:before, .nav-link:after {
+	content: '';
+	position: absolute;
+	transition: transform .5s ease;
+}
+
+.nav-link {
+	padding-right: 10px;
+	position: relative;
+	color: inherit;
+	text-decoration: none;
+	line-height: 24px;
+}
+
+.nav-link:before {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #492059;
+	transform: scaleX(0);
+}
+
+.nav-link:hover:before {
+	transform: scaleX(1);
+}
+
+.navbar li a, .navbar .navbar-brand {
+	color: #4682b4 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #4682b4 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+/* ################ :: 8.0 Carousel CSS ################# */
+.carousel-item img {
+	height: 100vh;
+	object-fit: cover;
+}
+
+/* ################ :: 8.0 About Us CSS ################# */
+div.transbox {
+	margin: 30px;
+	background-color: #ffffff;
+	opacity: 0.8;
+}
+
+div.transbox p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+.jumbotron {
+	background-color: #fff;
+	color: #4682b4;
+	padding: 100px 25px;
+	font-family: 20px Montserrat, sans-serif;
+}
+
+/* ################ :: 8.0 Team CSS ################# */
+section {
+	float: left;
+	width: 100%;
+	background: rgb(70, 130, 180); /* fallback for old browsers */
+	padding: 30px 0;
+}
+
+.profile-card-3 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	height: 368px;
+	border: none;
+}
+
+.profile-card-3 .background-block {
+	float: left;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.profile-card-3 .background-block .background {
+	width: 100%;
+	vertical-align: top;
+	opacity: 0.9;
+	-webkit-filter: blur(0.5px);
+	filter: blur(0.5px);
+	-webkit-transform: scale(1.8);
+	transform: scale(2.8);
+}
+
+.profile-card-3 .card-content {
+	width: 100%;
+	padding: 15px 25px;
+	color: #232323;
+	float: left;
+	background: #efefef;
+	height: 50%;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	z-index: 9999;
+}
+
+.profile-card-3 .card-content::before {
+	content: '';
+	background: #efefef;
+	width: 120%;
+	height: 100%;
+	left: 11px;
+	bottom: 51px;
+	position: absolute;
+	z-index: -1;
+	transform: rotate(-13deg);
+}
+
+.profile-card-3 .profile {
+	border-radius: 50%;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	max-width: 100px;
+	opacity: 1;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+	border: 2px solid rgba(255, 255, 255, 1);
+	-webkit-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+	z-index: 99999;
+}
+
+.profile-card-3 h2 {
+	margin: 0 0 5px;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.profile-card-3 h2 small {
+	display: block;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.profile-card-3 i {
+	display: inline-block;
+	font-size: 16px;
+	color: #232323;
+	text-align: center;
+	border: 1px solid #232323;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
+.profile-card-3 .icon-block {
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.profile-card-3 .icon-block a {
+	text-decoration: none;
+}
+
+.profile-card-3 i:hover {
+	background-color: #232323;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ################ :: 8.0 Gallery CSS ################# */
+.container.gallery-container {
+	background-color: #fff;
+	color: #35373a;
+	min-height: 100vh;
+	padding: 30px 50px;
+}
+
+.gallery-container h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+
+.gallery-container p.page-description {
+	text-align: center;
+	margin: 25px auto;
+	font-size: 18px;
+	color: #999;
+}
+
+.tz-gallery {
+	padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row>div {
+	padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 0;
+	position: relative;
+}
+
+.tz-gallery .lightbox:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	opacity: 0;
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Font Awesome 5 Free';
+	content: '\f00e';
+	font-weight: 900;
+	pointer-events: none;
+	z-index: 9000;
+	transition: 0.4s;
+}
+
+.tz-gallery .lightbox:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: rgba(46, 132, 206, 0.7);
+	content: '';
+	transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after, .tz-gallery .lightbox:hover:before {
+	opacity: 1;
+}
+
+.baguetteBox-button {
+	background-color: transparent !important;
+}
+
+@media ( max-width : 768px) {
+	body {
+		padding: 0;
+	}
+}
+/* :: 7.0 Contact CSS */
+.btn-enquiry {
+	background: #4682b4;
+	color: #fff;
+	font-weight: 700;
+}
+
+/* ################ :: 8.0 Error CSS ################# */
+label.error {
+	color: red;
+	font-size: 1rem;
+	display: block;
+	margin-top: 5px;
+}
+
+input.error {
+	border: 1px solid red;
+	font-weight: 300;
+	color: red;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {
+		font-size: 11px
+	}
+}
+
+/* ################ :: 8.0 Registration.jsp CSS ################# */
+#registrationPage {
+	background-image:
+		url('https://images.pexels.com/photos/1762973/pexels-photo-1762973.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#registrationPage input[type=text], input[type=password], input[type=number], input[type=select] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+#registrationPage button {
+	background-color: #4682b4;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+#registrationPage button:hover {
+	opacity: 0.8;
+}
+
+#registrationPage div.container {
+	border: 8px solid #f1f1f1;
+/* 	padding: 20px; */
+	width: 45%;
+}
+
+#registrationPage .input {
+	padding: 50px;
+}
+
+#registrationPage span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+#registrationPage select {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+
+/* ################ :: 8.0 Enquiries.jsp CSS ################# */
+#enquiriesPage  {}
+
+#enquiriesPage input[type=text], input[type=email], textarea {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+
+#enquiriesPage button {
+ background-color: #4682b4;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+
+#enquiriesPage button:hover {
+ opacity: 0.8;
+}
+
+#enquiriesPage div.container {
+border: 8px solid #f1f1f1;
+
+/*  padding: 20px; */
+/*  width: 1500px; */
+}
+
+#enquiriesPage .input {
+ padding: 50px;
+}
+
+#enquiriesPage span.psw {
+ float: right;
+ padding-top: 16px;
+}
+#enquiriesPage  select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Create two equal columns that floats next to each other */
+#enquiriesPage  .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 650px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+#enquiriesPage  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#enquiriesPage table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#enquiriesPage table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+#enquiriesPage th, td{
+  padding: 15px;
+}
+
+
+
+
+
+
+

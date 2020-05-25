@@ -45,9 +45,10 @@ public class EnquiryDao {
 				enquiry.setEnquiryID(resultSet.getInt("enquiryID"));
 				enquiry.setFirstName(resultSet.getString("firstName"));
 				enquiry.setLastName(resultSet.getString("lastName"));
-				enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.valueOf(resultSet.getString("enquiryCategory")));
+				enquiry.setEnquiryCategory(resultSet.getString("enquiryCategory"));
 				enquiry.setEnquiryDescription(resultSet.getString("enquiryDescription"));
 				enquiry.setPhoneNumber(resultSet.getInt("phoneNumber"));
+				enquiry.setEmail(resultSet.getString("email"));
 				
 				enquiryList.add(enquiry);
 			}
@@ -87,10 +88,10 @@ public class EnquiryDao {
 				enquiry.setEnquiryID(resultSet.getInt("enquiryID"));
 				enquiry.setFirstName(resultSet.getString("firstName"));
 				enquiry.setLastName(resultSet.getString("lastName"));
-				enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.valueOf(resultSet.getString("enquiryCategory")));
+				enquiry.setEnquiryCategory(resultSet.getString("enquiryCategory"));
 				enquiry.setEnquiryDescription(resultSet.getString("enquiryDescription"));
 				enquiry.setPhoneNumber(resultSet.getInt("phoneNumber"));
-				
+				enquiry.setEmail(resultSet.getString("email"));
 			}
 			
 		} catch (Exception e) {
@@ -107,17 +108,18 @@ public class EnquiryDao {
 		if(enquiry != null) {
 			
 			Connection connection = Configs.getDbConnection();
-			String sql = "INSERT INTO `tbl_enquiry` (`firstName`,`lastName`, `enquiryCategory`, `enquiryDescription`, `phoneNumber`) " + 
-						"VALUES (?,?,?,?,?)";
+			String sql = "INSERT INTO `tbl_enquiry` (`firstName`,`lastName`, `enquiryCategory`, `enquiryDescription`, `phoneNumber`, `email`) " + 
+						"VALUES (?,?,?,?,?,?)";
 //			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
 //					"VALUES (?,?,?,?,?)";
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			
 			stmt.setString(1, enquiry.getFirstName());
 			stmt.setString(2, enquiry.getLastName());
-			stmt.setString(3, enquiry.getEnquiryCategory().toString());
+			stmt.setString(3, enquiry.getEnquiryCategory());
 			stmt.setString(4, enquiry.getEnquiryDescription());
 			stmt.setInt(5, enquiry.getPhoneNumber());
+			stmt.setString(6, enquiry.getEmail());
 			
 			int count = stmt.executeUpdate();
 			
