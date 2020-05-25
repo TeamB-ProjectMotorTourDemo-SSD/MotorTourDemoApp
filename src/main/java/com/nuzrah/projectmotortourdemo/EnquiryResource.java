@@ -4,6 +4,8 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
+//import javax.ws.rs.Consumes;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -112,6 +114,33 @@ public class EnquiryResource {
 		enquiry.setEmail(email);
 		
 		EnquiryDao.getInstance().add(enquiry);
+		
+		logger.info("Enquiry was submitted to the database successfully!");
+	
+	}
+	
+	@POST
+	@Path("update")
+	@Produces(MediaType.APPLICATION_JSON)
+	public void updateEnquiry(	@FormParam("firstName") String firstName,
+								@FormParam("lastName") String lastName,
+								@FormParam("enquiryCategory") String enquiryCategory,
+								@FormParam("enquiryDescription") String enquiryDescription,
+								@FormParam("phoneNumber") int phoneNumber,
+								@FormParam("email") String email,
+								@PathParam("enquiryID") int enquiryID) throws ClassNotFoundException, SQLException {
+		
+		Enquiry enquiry = new Enquiry();
+		
+		enquiry.setFirstName(firstName);
+		enquiry.setLastName(lastName);
+		enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.getEnumByString(enquiryCategory));
+		enquiry.setEnquiryDescription(enquiryDescription);
+		enquiry.setPhoneNumber(phoneNumber);
+		enquiry.setEmail(email);
+		enquiry.setEnquiryID(enquiryID);
+		
+		EnquiryDao.getInstance().update(enquiry);
 		
 		logger.info("Enquiry was submitted to the database successfully!");
 	

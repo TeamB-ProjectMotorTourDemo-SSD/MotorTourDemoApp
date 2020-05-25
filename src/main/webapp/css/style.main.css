@@ -78,12 +78,78 @@ h4 {
 	font-weight: 400;
 }
 
-.overflow-dots { 
-  overflow: hidden; 
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 100%;
-  height: 2rem;
+.overflow-dots {
+	display: inline-block;
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=select],
+	input[type=email], textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.button {
+	background-color: #4682b4;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.btn-custom {
+	background-color: #4682b4;
+	color: white;
+}
+
+.button:hover, .btn-custom:hover {
+	opacity: 0.8;
+	color: white;
+}
+
+/* div.container { */
+/* 	border: 8px solid #f1f1f1; */
+/* } */
+
+.table-responsive {
+	height: 600px;
+}
+
+thead {
+	position: sticky;
+	top: 0;
+}
+
+.input {
+	padding: 50px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+select {
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+th, td {
+	min-width: 1%;
+	white-space: nowrap
 }
 
 /* ################ :: 8.0 Navigation CSS ################# */
@@ -394,135 +460,7 @@ input.error {
 	background-size: cover;
 }
 
-#registrationPage input[type=text], input[type=password], input[type=number], input[type=select] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-}
-
-#registrationPage button {
-	background-color: #4682b4;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-}
-
-#registrationPage button:hover {
-	opacity: 0.8;
-}
-
-#registrationPage div.container {
-	border: 8px solid #f1f1f1;
-/* 	padding: 20px; */
-	width: 45%;
-}
-
-#registrationPage .input {
-	padding: 50px;
-}
-
-#registrationPage span.psw {
-	float: right;
-	padding-top: 16px;
-}
-
-#registrationPage select {
-	width: 100%;
-	padding: 16px 20px;
-	border: none;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	background-color: #fff;
-}
-
-
 /* ################ :: 8.0 Enquiries.jsp CSS ################# */
-#enquiriesPage  {}
-
-#enquiriesPage input[type=text], input[type=email], textarea {
- width: 100%;
- padding: 12px 20px;
- margin: 8px 0;
- display: inline-block;
- border: 1px solid #ccc;
- box-sizing: border-box;
+#enquiriesPage {
+	
 }
-
-#enquiriesPage button {
- background-color: #4682b4;
- color: white;
- padding: 14px 20px;
- margin: 8px 0;
- border: none;
- cursor: pointer;
- width: 100%;
-}
-
-#enquiriesPage button:hover {
- opacity: 0.8;
-}
-
-#enquiriesPage div.container {
-border: 8px solid #f1f1f1;
-
-/*  padding: 20px; */
-/*  width: 1500px; */
-}
-
-#enquiriesPage .input {
- padding: 50px;
-}
-
-#enquiriesPage span.psw {
- float: right;
- padding-top: 16px;
-}
-#enquiriesPage  select {
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-}
-
-/* Create two equal columns that floats next to each other */
-#enquiriesPage  .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 650px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-#enquiriesPage  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#enquiriesPage table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-#enquiriesPage table.center {
-  margin-left:auto; 
-  margin-right:auto;
-}
-
-#enquiriesPage th, td{
-  padding: 15px;
-}
-
-
-
-
-
-
-

@@ -135,5 +135,38 @@ public class EnquiryDao {
 		return false;
 		
 	}
+	
+public boolean update(Enquiry enquiry) throws ClassNotFoundException, SQLException {
+		
+		if(enquiry != null) {
+			
+			Connection connection = Configs.getDbConnection();
+			String sql = "UPDATE `tbl_enquiry` SET `firstName` = ?,`lastName` = ?, `enquiryCategory` = ?, `enquiryDescription` = ?, `phoneNumber` = ?, `email` = ? WHERE enquiryID = ?";
+//			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
+//					"VALUES (?,?,?,?,?)";
+			PreparedStatement stmt = connection.prepareStatement(sql);
+			
+			stmt.setString(1, enquiry.getFirstName());
+			stmt.setString(2, enquiry.getLastName());
+			stmt.setString(3, enquiry.getEnquiryCategory());
+			stmt.setString(4, enquiry.getEnquiryDescription());
+			stmt.setInt(5, enquiry.getPhoneNumber());
+			stmt.setString(6, enquiry.getEmail());
+			stmt.setInt(7, enquiry.getEnquiryID());
+			
+			int count = stmt.executeUpdate();
+			
+			if(count > 0) {
+				System.out.println("Successfully Added");
+				return true;
+			} else {
+				System.out.println("Error occured");
+			}
+							
+		}
+		
+		return false;
+		
+	}
 
 }

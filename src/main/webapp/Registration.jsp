@@ -78,7 +78,7 @@
     <hr>
     <p class="col-12 text-center">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <button class="btn btn-primary"  type="submit" style=" margin: 10px 0px;">Register</button>
+    <button class="btn btn-primary button"  type="submit" style=" margin: 10px 0px;">Register</button>
   </div>
   
   <div class="col-12 text-center signin bg-White">
