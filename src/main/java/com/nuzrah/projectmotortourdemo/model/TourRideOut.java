@@ -1,7 +1,5 @@
 package com.nuzrah.projectmotortourdemo.model;
 
-import com.nuzrah.projectmotortourdemo.dao.TOUR_AVAILABILITY;
-
 public class TourRideOut {
 	private int tourID;
 	private String tourName;
@@ -10,7 +8,7 @@ public class TourRideOut {
 	private String legalRequirements;
 	private String tourLeaderFirstName;
 	private String tourLeaderLastName;
-	private TOUR_AVAILABILITY availability;
+	private String availability;
 	private String startLocation;
 	private String endLocation;
 	
@@ -20,7 +18,7 @@ public class TourRideOut {
 	}
 
 	public TourRideOut(int tourID, String tourName, String tourDescription, int tourDuration, String legalRequirements,
-			String tourLeaderFirstName, String tourLeaderLastName, TOUR_AVAILABILITY availability, String startLocation,
+			String tourLeaderFirstName, String tourLeaderLastName, String availability, String startLocation,
 			String endLocation) {
 		super();
 		this.tourID = tourID;
@@ -109,12 +107,12 @@ public class TourRideOut {
 		this.endLocation = endLocation;
 	}
 
-	public TOUR_AVAILABILITY getAvailability() {
+	public String getAvailability() {
 		return availability;
 	}
 
-	public void setAvailability(TOUR_AVAILABILITY availability) {
-		this.availability = availability;
+	public void setAvailability(String string) {
+		this.availability = string;
 	}
 	
 	

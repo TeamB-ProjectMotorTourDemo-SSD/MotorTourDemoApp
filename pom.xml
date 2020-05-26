@@ -129,13 +129,13 @@
 		    <version>2.13.3</version>
 		</dependency>
 		
+		<dependency>
+		  <groupId>javax.servlet.jsp</groupId>
+		  <artifactId>jsp-api</artifactId>
+		  <version>2.1</version>
+		  <scope>provided</scope>
+		</dependency>
 		
-		
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.postgresql</groupId> -->
-<!-- 			<artifactId>postgresql</artifactId> -->
-<!-- 			<version>9.4.1208</version> -->
-<!-- 		</dependency> -->
     </dependencies>
     <properties>
         <jersey.version>3.0.0-M1</jersey.version>

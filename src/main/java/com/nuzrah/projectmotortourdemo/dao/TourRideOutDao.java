@@ -48,7 +48,7 @@ public class TourRideOutDao {
 				tourRideOut.setLegalRequirements(resultSet.getString("legalRequirements"));
 				tourRideOut.setTourLeaderFirstName(resultSet.getString("tourLeaderFirstName"));
 				tourRideOut.setTourLeaderLastName(resultSet.getString("tourLeaderLastName"));
-				tourRideOut.setAvailability(TOUR_AVAILABILITY.valueOf(resultSet.getString("availability")));
+				tourRideOut.setAvailability(resultSet.getString("availability"));
 				tourRideOut.setStartLocation(resultSet.getString("startLocation"));
 				tourRideOut.setEndLocation(resultSet.getString("endLocation"));
 				
@@ -94,7 +94,7 @@ public class TourRideOutDao {
 				tourRideOut.setLegalRequirements(resultSet.getString("legalRequirements"));
 				tourRideOut.setTourLeaderFirstName(resultSet.getString("tourLeaderFirstName"));
 				tourRideOut.setTourLeaderLastName(resultSet.getString("tourLeaderLastName"));
-				tourRideOut.setAvailability(TOUR_AVAILABILITY.valueOf(resultSet.getString("availability")));
+				tourRideOut.setAvailability(resultSet.getString("availability"));
 				tourRideOut.setStartLocation(resultSet.getString("startLocation"));
 				tourRideOut.setEndLocation(resultSet.getString("endLocation"));
 				
@@ -113,30 +113,35 @@ public class TourRideOutDao {
 		
 		if(tourRideOut != null) {
 			
-			Connection connection = Configs.getDbConnection();
-			String sql = "INSERT INTO `tbl_tour_ride` (	`tourName`,`tourDescription`,`tourDuration`, `legalRequirements`, `tourLeaderFirstName`, `tourLeaderLastName`, `availability`, `startLocation`, `endLocation` " + 
-						"VALUES (?,?,?,?,?,?,?,?,?)";
-//			String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
-//					"VALUES (?,?,?,?,?)";
-			PreparedStatement stmt = connection.prepareStatement(sql);
-			
-			stmt.setString(1, tourRideOut.getTourName());
-			stmt.setString(2, tourRideOut.getTourDescription());
-			stmt.setInt(3, tourRideOut.getTourDuration());
-			stmt.setString(4, tourRideOut.getLegalRequirements());
-			stmt.setString(5, tourRideOut.getTourLeaderFirstName());
-			stmt.setString(6, tourRideOut.getTourLeaderLastName());
-			stmt.setString(7, tourRideOut.getAvailability().toString());
-			stmt.setString(8, tourRideOut.getStartLocation());
-			stmt.setString(9, tourRideOut.getEndLocation());
-			
-			int count = stmt.executeUpdate();
-			
-			if(count > 0) {
-				System.out.println("Successfully Added");
-				return true;
-			} else {
-				System.out.println("Error occured");
+			try {
+				Connection connection = Configs.getDbConnection();
+				String sql = "INSERT INTO `tbl_tour_ride` (	`tourName`,`tourDescription`,`tourDuration`, `legalRequirements`, `tourLeaderFirstName`, `tourLeaderLastName`, `availability`, `startLocation`, `endLocation` " + 
+							"VALUES (?,?,?,?,?,?,?,?,?)";
+//				String sql = "INSERT INTO tbl_enquiry (firstName,lastName, enquiryCategory, enquiryDescription, phoneNumber) " + 
+//						"VALUES (?,?,?,?,?)";
+				PreparedStatement stmt = connection.prepareStatement(sql);
+				
+				stmt.setString(1, tourRideOut.getTourName());
+				stmt.setString(2, tourRideOut.getTourDescription());
+				stmt.setInt(3, tourRideOut.getTourDuration());
+				stmt.setString(4, tourRideOut.getLegalRequirements());
+				stmt.setString(5, tourRideOut.getTourLeaderFirstName());
+				stmt.setString(6, tourRideOut.getTourLeaderLastName());
+				stmt.setString(7, tourRideOut.getAvailability());
+				stmt.setString(8, tourRideOut.getStartLocation());
+				stmt.setString(9, tourRideOut.getEndLocation());
+				
+				int count = stmt.executeUpdate();
+				
+				if(count > 0) {
+					System.out.println("Successfully Added");
+					return true;
+				} else {
+					System.out.println("Error occured");
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("Error : "+e.getMessage());
 			}
 							
 		}

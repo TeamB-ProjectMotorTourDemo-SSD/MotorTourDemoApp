@@ -11,19 +11,20 @@
 <%@page import="java.net.URL"%>
 <!DOCTYPE html>
 <html>
+<!--  jQuery (Necessary for All JavaScript Scripts) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
 <head>
 <title>Enquiry</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../css/style.main.css" />
 
+<link rel="stylesheet" type="text/css" href="../css/style.main.css" />
 
 
 </head>
 <body id="enquiriesPage">
-<!-- 	<form -->
-<!-- 		action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry" -->
-<!-- 		method="post" id="enquiryForm" name="enquiryForm"> -->
 
 		<div class="container-fluid p-5">
 
@@ -34,7 +35,7 @@
 				<div class="col-4 pt-2" style="background-color: #f5f6f7;">
 					<h2>Enquiry Form</h2>
 					<hr>
-					<form method="post" action="../processes/enquiryUpdateProcess.jsp" id="enquiryFormUpdate" name="enquiryFormUpdate">
+					<form action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry/update" method="post"  id="enquiryFormUpdate" name="enquiryFormUpdate">
 					
 					<% 
 						if (request.getParameterMap().containsKey("enquiryID")) {
@@ -78,7 +79,7 @@
 									
 					%>
 					
-					<div class=" form-group" hidden="hidden">
+					<div class=" form-group">
 						<label for="enquiryID"><b>Enquirer First Name</b></label> <input
 							type="text" id="enquiryID" name="enquiryID" value="<% out.print(jsonObject.get("enquiryID").getAsString());%>" required>
 					</div>
@@ -95,7 +96,7 @@
 
 					<div class=" form-group">
 						<label for="phoneNumber"><b>Phone number</b></label> <input
-							type="text" placeholder="(xxx) xxx xxxx"  value="<% out.print(jsonObject.get("phoneNumber").getAsString());%>" name="phoneNumber"
+							type="text" placeholder="(xxx) xxx xxxx" value="<% out.print(jsonObject.get("phoneNumber").getAsString());%>" name="phoneNumber"
 							id="phoneNumber" required>
 					</div>
 
@@ -119,26 +120,112 @@
 						<label for="enquiryDescription"><b>Enquiry/Suggestion</b></label>
 						<textarea class="form-control" id="enquiryDescription"
 							name="enquiryDescription" rows="5"><% out.print(jsonObject.get("enquiryDescription").getAsString());%></textarea>
-					</div>			
+					</div>
+					
+					 <pre id="output" style="width:100%; background-color:whitesmoke; white-space: pre-wrap;">hfghfgh</pre>
 						
 						<script>
 						//Select option
 						var selectedOption = "<%=selectOption%>";
-// 						$("select option[value="+selectedOption+"]").prop("selected", true);
-						document.getElementById('enquiryCategory').value = selectedOption;	
+						document.getElementById('enquiryCategory').value = selectedOption;
 						
+						//Submit Form
+						function getSecond() { 
+							var frm = document.getElementById("enquiryFormUpdate"); 
+							frm.action = "http://localhost:8080/projectmotortourdemo/motorapi/enquiry/"+<%=enquiryID%>;
+							frm.submit(); 
+						} 
+						
+// 					    $(document).ready(function () {
+					        
+// 					        $("#enquiryUpdateForm").click(function(){
+// 					           console.log("calling...")
+// 					            $.ajax({
+<%-- 					                url: "http://localhost:8080/projectmotortourdemo/motorapi/enquiry/"+<%=enquiryID%>, --%>
+// 					                type: 'POST',
+// 					                dataType: "html",
+// 					                contentType: 'application/x-www-form-urlencoded',
+// 					                data:$("#enquiryUpdateForm").serialize(),
+// 					                success: function(form) {
+// 					                    console.log("Success");
+// 					                    form.submit()
+// 					                }
+// 					            });
+// 					           return true;
+// 					         });
+					         
+// 					         $("#deleteForm").on("submit", function(){
+// 					            $.ajax({
+// 					                url: 'rest/userInfo',
+// 					                type: 'DELETE',
+// 					                dataType: "xml",
+// 					                data:$("#deleteForm").serialize(),
+// 					                success: function(xml) {
+// 					                    console.log(xml);
+// 					                    $(xml).find('User').each(function(){
+// 					                        $(this).find("id").each(function(){
+// 					                            var id = $(this).text();
+// 					                            console.log(id);
+// 					                            alert("Deleted the user with id "+id);
+// 					                        });
+// 					                    });
+					                   
+// 					                }
+// 					            });
+// 					           return true;
+// 					         })
+// 					        });
+					    
+					    
+// 					    $("enquiryUpdateForm").submit(function(event) {
+// 							  var newFormData = [];
+// 							  jQuery('.form-group').each(function(i) {
+// 							    var tb = jQuery(this);
+// 							    var obj = {};
+// 							    tb.find('input').each(function() {
+// 							      obj[this.name] = this.value;
+// 							    });
+// 							    obj['row'] = i;
+// 							    newFormData.push(obj);
+// 							  });
+// 							  console.log(newFormData);
+// 							  var Stringified = JSON.stringify(newFormData);
+// 							  document.getElementById('output').innerHTML = Stringified;
+// //				 			  document.getElementById('output').innerHTML = JSON.stringify(Stringified);
+							  
+// //				 				  var saveData = $.ajax({
+// //				 				      type: "POST",
+// //				 				      url: "http://localhost:8080/projectmotortourdemo/motorapi/tourday",
+// //				 				      data: Stringified,
+// //				 				      dataType: "html",
+// //				 				      success: function(resultData){
+// //				 				          console.log("Save Complete");
+// //				 				      }
+// //				 				});
+// //				 				saveData.error(function() { console.log("Something went wrong"); });
+// // 								$.ajax({
+<%-- 					                url: "http://localhost:8080/projectmotortourdemo/motorapi/enquiry/"+<%=enquiryID%>, --%>
+// // 					                type: 'PUT',
+// // 					                dataType: "JSON",
+// // 					                data:$("#enquiryUpdateForm").serialize(),
+// // 					                success: function() {
+// // 					                    console.log("Success");
+// // 					                }
+// // 					            });
+							
+// 							  event.preventDefault();
+							  
+							  
+// 							});
+
 						</script>
 						
-						
 					<%
-						
 								}
 								httpURLConnection.disconnect();
 								%>
-								<button class="btn btn-primary button" id="enquiryUpdateFormBtn" 
-								type="submit"
+								<button class="btn btn-primary button" id="enquiryUpdateFormBtn" onClick="submit"
 						style="margin: 10px 0px;">Save Record</button>
-								
 						</form>
 								<%
 			   					
@@ -147,59 +234,7 @@
 			   					
 			   					out.print("Error : "+e.getMessage());
 			   				}
-			   			} else {
-					%>	
-						<form
-		action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry"
-		method="post" id="enquiryForm" name="enquiryForm">
-					
-					<div class=" form-group">
-						<label for="firstName"><b>Enquirer First Name</b></label> <input
-							type="text" id="firstName" name="firstName" value="" required>
-					</div>
-
-					<div class=" form-group">
-						<label for="lastName"><b>Enquirer Last Name</b></label> <input
-							type="text" id="lastName" name="lastName" required>
-					</div>
-
-					<div class=" form-group">
-						<label for="phoneNumber"><b>Phone number</b></label> <input
-							type="text" placeholder="(xxx) xxx xxxx" name="phoneNumber"
-							id="phoneNumber" data-mask="(000) 000 0000" required>
-					</div>
-
-					<div class=" form-group">
-						<label for="email"><b>Email</b></label> <input type="email"
-							placeholder="example@example.com" name="email" id="email"
-							required>
-					</div>
-
-					<div class=" form-group">
-						<label for="enquiryCategory"><b>Enquiry Category</b></label> <select
-							id="enquiryCategory" name="enquiryCategory">
-							<option selected="selected">Upcoming Tours and Ride-outs</option>
-							<option>Booking tours</option>
-							<option>Legal requirements for tour participation</option>
-							<option>Other</option>
-						</select>
-					</div>
-
-					<div class=" form-group">
-						<label for="enquiryDescription"><b>Enquiry/Suggestion</b></label>
-						<textarea class="form-control" id="enquiryDescription"
-							name="enquiryDescription" rows="5"></textarea>
-					</div>
-					
-					<button class="btn btn-primary button" id="enquiryFormBtn" type="button"
-						style="margin: 10px 0px;">Submit Record</button>
-						</form>
-						
-						
-					
-					<%
-						} 
-					%>	
+			   			} %>
 				</div>
 
 
@@ -208,9 +243,9 @@
 					<hr>
 					
 					
-				    <input type="text" class="form-control w-25" placeholder="Search..."  id="search_field">
+				    <input type="text" class="form-control w-25" placeholder="Search..." id="search_field">
 
-					<table class="table table-responsive table-bordered" id="enquiryTable">
+					<table class="table table-responsive table-bordered">
 						<thead class="thead-light">
 							<tr class="thead_row">
 								<!--         <th scope="col">Id</th> -->
@@ -267,8 +302,9 @@
 								<td><%out.print(obj.get("enquiryCategory").getAsString()); %></td>
 								<td><span class="overflow-dots"><%out.print(obj.get("enquiryDescription").getAsString()); %></span></td>
 								<td>
-								<a href="enquiries.jsp?enquiryID=<%out.print(obj.get("enquiryID").getAsString()); %>" id="view" class="btn btn-custom bg-Blue btn-sm" role="button">View / Edit</a> 
-								<a href="../processes/enquiryDeleteProcess.jsp?enquiryID=<%out.print(obj.get("enquiryID").getAsString()); %>" id="delete" class="btn btn-custom bg-Blue btn-sm" role="button">Delete</a></td>
+								<a href="enquiriesTest.jsp?enquiryID=<%out.print(obj.get("enquiryID").getAsString()); %>" id="view" class="btn btn-custom bg-Blue btn-sm" role="button">View / Edit</a> 
+<!-- 								<a href="#update" id="update" class="btn btn-custom bg-Blue mx-1 btn-sm" role="button">Update</a>  -->
+								<a href="deleteProcess.jsp?enquiryID=<%out.print(obj.get("enquiryID").getAsString()); %>" id="delete" class="btn btn-custom bg-Blue btn-sm" role="button">Delete</a></td>
 
 							</tr>
 							<%
@@ -282,15 +318,10 @@
 			</div>
 		</div>
 
-	<!-- #####  Staring of all JavaScript Scripts  ##### -->
-	<!--  jQuery (Necessary for All JavaScript Scripts) -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-<!--  jQuery Mask JS -->
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+<!-- 	</form> -->
 
+	<!-- #####  Staring of all JavaScript Scripts  ##### -->
+	
 	<!-- Popper JS -->
 	<script
 		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -313,15 +344,15 @@
 		src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"
 		integrity="sha256-vb+6VObiUIaoRuSusdLRWtXs/ewuz62LgVXg2f1ZXGo="
 		crossorigin="anonymous"></script>
-	
+	<!--  jQuery Mask JS -->
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 
 	<script>
 	 //<!-- Clear fields on load -->
     function ClearForm(){
         document.enquiryForm.reset();
-        document.getElementById("search_field").value = "";
     }
-    
     
     
     //<!-- Clear Form on submit -->
@@ -331,21 +362,14 @@
 					$("#phoneNumber").unmask();
 					$('#enquiryForm').submit();
 					$('#enquiryForm')[0].reset();
+					$('#search_field').val('');
 					$('select').find('option[selected="selected"]').attr(
 							'selected', 'selected');
-				});
-		
-		$('#enquiryUpdateFormBtn').on(
-				'click',
-				function() {
-					$("#phoneNumber").unmask();
-					$('#enquiryUpdateForm').submit();
 				});
 
 		 //<!-- jQuery Form Validation -->
 	    $(function() {
 	    	$("#phoneNumber").mask("(000) 000 0000");
-	    	
 	    	
 	    	  $("form[name='enquiryForm']").validate({
 	    	    // Specify validation rules
@@ -376,26 +400,31 @@
 	    	      },
 	    	      email: "Please enter a valid email address"
 	    	    }
+	    	    // Make sure the form is submitted to the destination defined
+	    	    // in the "action" attribute of the form when valid
+// 	     	    submitHandler: function(form) {
+// 	     	      form.submit();
+// 	     	    }
 	    	  });
 	    	});
 		
-		$('#search_field').on('keyup', function() {
-			  var value = $(this).val();
-			  var patt = new RegExp(value, "i");
+// 		$('#search_field').on('keyup', function() {
+// 			  var value = $(this).val();
+// 			  var patt = new RegExp(value, "i");
 
-			  $('#enquiryTable').find('tr').each(function() {
-			    var $table = $(this);
+// 			  $('#enquiryForm').find('tr').each(function() {
+// 			    var $table = $(this);
 			    
-			    if (!($table.find('td').text().search(patt) >= 0)) {
-			      $table.not('.thead_row').hide();
-			    }
-			    if (($table.find('td').text().search(patt) >= 0)) {
-			      $(this).show();
-			    }
+// 			    if (!($table.find('td').text().search(patt) >= 0)) {
+// 			      $table.not('.thead_row').hide();
+// 			    }
+// 			    if (($table.find('td').text().search(patt) >= 0)) {
+// 			      $(this).show();
+// 			    }
 			    
-			  });
+// 			  });
 			 
-			});
+// 			});
 	</script>
 	<%
 							}
