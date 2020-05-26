@@ -38,7 +38,7 @@
 					
 					<% 
 						if (request.getParameterMap().containsKey("enquiryID")) {
-							final String API_ID_URL = "http://localhost:8080/projectmotortourdemo/motorapi/enquiry/"+request.getParameter("enquiryID");
+							final String API_ID_URL = "https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry/"+request.getParameter("enquiryID");
 					        String API_enquiryID = request.getParameter("enquiryID");
 					        System.out.println(API_enquiryID);
 					        
@@ -150,7 +150,7 @@
 			   			} else {
 					%>	
 						<form
-		action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry"
+		action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry"
 		method="post" id="enquiryForm" name="enquiryForm">
 					
 					<div class=" form-group">
@@ -226,7 +226,7 @@
 						<tbody>
 							<%
 							
-								final String API_URL = "http://localhost:8080/projectmotortourdemo/motorapi/enquiry";
+								final String API_URL = "https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry";
 						    
 							//Fetching data from API.
 							try {

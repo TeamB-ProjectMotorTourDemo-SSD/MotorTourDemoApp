@@ -21,9 +21,6 @@
 
 </head>
 <body id="tourrideoutmanagementPage">
-	<!-- 	<form -->
-	<!-- 		action="http://localhost:8080/projectmotortourdemo/motorapi/tourrideout" -->
-	<!-- 		method="post" id="tourRideOutForm" name="tourRideOutForm"> -->
 
 	<div class="container-fluid p-5">
 
@@ -40,8 +37,7 @@
 
 					<%
 						if (request.getParameterMap().containsKey("tourID")) {
-						final String API_ID_URL = "http://localhost:8080/projectmotortourdemo/motorapi/tourrideout/"
-						+ request.getParameter("tourID");
+						final String API_ID_URL = "https://motor-tour-demo-teamb.herokuapp.com/motorapi/tourrideout/"+ request.getParameter("tourID");
 						String API_tourID = request.getParameter("tourID");
 						System.out.println(API_tourID);
 
@@ -177,7 +173,7 @@
 				} else {
 				%>
 				<form
-					action="http://localhost:8080/projectmotortourdemo/motorapi/tourrideout"
+					action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/tourrideout"
 					method="post" id="tourRideOutForm" name="tourRideOutForm">
 
 					<div class=" form-group">
@@ -280,7 +276,7 @@
 					</thead>
 					<tbody>
 						<%
-							final String API_URL = "http://localhost:8080/projectmotortourdemo/motorapi/tourrideout";
+							final String API_URL = "https://motor-tour-demo-teamb.herokuapp.com/motorapi/tourrideout";
 
 						//Fetching data from API.
 						try {

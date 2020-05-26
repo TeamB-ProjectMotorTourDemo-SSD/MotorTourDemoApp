@@ -17,18 +17,18 @@
   </head>
   <body>
   
- 
+ <div class="container-fluid text-center vh-100">
 <div class="jumbotron text-center">
   <h1>Motor Cycle Tour Ride out</h1>
 </div>
    
-    <div class="row text-center">
+    <div class="row text-center h-75">
   <div class="col mb-4">
     <div class="thumbnail">
       <img src="img/usermanagementicon.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
-        <h5 class="card-title"><u>User Management</u></h5>
-       <a href="#" class="btn btn-primary">Click Here</a>  
+        <h5 class="card-title">User Management</h5>
+       <a href="views/usermanagement.jsp" class="btn btn-primary">Click Here</a>  
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@
       <img src="img/ridebicycle.jpg" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Tour Ride-out Management</h5>
-        <a href="#" class="btn btn-primary">Click Here</a>  
+        <a href="views/tourrideoutmanagement.jsp" class="btn btn-primary">Click Here</a>  
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
       <img src="img/enquiry.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Enquiry Management</h5>
-        <a href="#" class="btn btn-primary">Click Here</a> 
+        <a href="views/enquiries.jsp" class="btn btn-primary">Click Here</a> 
       </div>
     </div>
   </div>
@@ -56,16 +56,16 @@
       <img src="img/booking.png" class="img-responsive" alt="..." width="200" height="200">
       <div class="card-body">
         <h5 class="card-title">Booking Management</h5>
-        <a href="#" class="btn btn-primary">Click Here</a> 
+        <a href="views/bookingmanagement.jsp" class="btn btn-primary">Click Here</a> 
       </div>
     </div>
   </div>
 </div>
-<br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br>  <br> <br> <br><br> <br> <br> <br> <br> <br> <br><br> <br>
 <div>
-<footer class="container-fluid text-center">
-  <p>Motorcycle Tour Ride Out <a href="https://www.motorcycletour.com" title="Visit motorcycletour">www.motorcycle.com</a></p>
+<footer class="container-fluid text-center bg-light p-5">
+  <p>Motorcycle Tour & Ride-Outs </p>
 </footer>
+</div>
 </div>
 
     <!-- Optional JavaScript -->
