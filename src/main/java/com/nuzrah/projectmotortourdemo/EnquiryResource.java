@@ -7,6 +7,7 @@ import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.FormParam;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
@@ -116,5 +117,6 @@ public class EnquiryResource {
 		logger.info("Enquiry was submitted to the database successfully!");
 	
 	}
+	
 
 }

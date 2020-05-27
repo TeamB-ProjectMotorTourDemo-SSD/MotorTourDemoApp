@@ -87,12 +87,7 @@
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
         </dependency>
-        <!-- uncomment this to get JSON support
-        <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-json-binding</artifactId>
-        </dependency>
-        -->
+       
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 		    <groupId>javax.servlet</groupId>
@@ -130,64 +125,56 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<dependency>
-		    <groupId>org.seleniumhq.selenium</groupId>
-		    <artifactId>selenium-java</artifactId>
-		    <version>4.0.0-alpha-5</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 		    <groupId>org.seleniumhq.selenium</groupId> -->
+<!-- 		    <artifactId>selenium-java</artifactId> -->
+<!-- 		    <version>4.0.0-alpha-5</version> -->
+<!-- 		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-		<dependency>
-		    <groupId>io.github.bonigarcia</groupId>
-		    <artifactId>webdrivermanager</artifactId>
-		    <version>4.0.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 		    <groupId>io.github.bonigarcia</groupId> -->
+<!-- 		    <artifactId>webdrivermanager</artifactId> -->
+<!-- 		    <version>4.0.0</version> -->
+<!-- 		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
-		<dependency>
-		    <groupId>org.seleniumhq.selenium</groupId>
-		    <artifactId>selenium-chrome-driver</artifactId>
-		    <version>4.0.0-alpha-5</version>
-		</dependency>
-		<dependency>
-		  <groupId>com.fasterxml.jackson.core</groupId>
-		  <artifactId>jackson-core</artifactId>
-		  <version>2.9.6</version>
-		</dependency>
-		
-		<dependency>
-		  <groupId>com.fasterxml.jackson.core</groupId>
-		  <artifactId>jackson-annotations</artifactId>
-		  <version>2.9.6</version>
-		</dependency>
-		
-		<dependency>
-		  <groupId>com.fasterxml.jackson.core</groupId>
-		  <artifactId>jackson-databind</artifactId>
-		  <version>2.9.6</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.fasterxml.jackson.dataformat</groupId>
-		    <artifactId>jackson-dataformat-cbor</artifactId>
-		    <version>2.9.6</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.msgpack</groupId>
-		    <artifactId>jackson-dataformat-msgpack</artifactId>
-		    <version>0.8.16</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.fasterxml.jackson.dataformat</groupId>
-		    <artifactId>jackson-dataformat-yaml</artifactId>
-		    <version>2.9.0</version>
-		</dependency>
-		
-		
-		
+<!-- 		<dependency> -->
+<!-- 		    <groupId>org.seleniumhq.selenium</groupId> -->
+<!-- 		    <artifactId>selenium-chrome-driver</artifactId> -->
+<!-- 		    <version>4.0.0-alpha-5</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 		  <groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 		  <artifactId>jackson-core</artifactId> -->
+<!-- 		  <version>2.9.6</version> -->
+<!-- 		</dependency> -->
 		
 <!-- 		<dependency> -->
-<!-- 			<groupId>org.postgresql</groupId> -->
-<!-- 			<artifactId>postgresql</artifactId> -->
-<!-- 			<version>9.4.1208</version> -->
+<!-- 		  <groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 		  <artifactId>jackson-annotations</artifactId> -->
+<!-- 		  <version>2.9.6</version> -->
 <!-- 		</dependency> -->
+		
+<!-- 		<dependency> -->
+<!-- 		  <groupId>com.fasterxml.jackson.core</groupId> -->
+<!-- 		  <artifactId>jackson-databind</artifactId> -->
+<!-- 		  <version>2.9.6</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 		    <groupId>com.fasterxml.jackson.dataformat</groupId> -->
+<!-- 		    <artifactId>jackson-dataformat-cbor</artifactId> -->
+<!-- 		    <version>2.9.6</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 		    <groupId>org.msgpack</groupId> -->
+<!-- 		    <artifactId>jackson-dataformat-msgpack</artifactId> -->
+<!-- 		    <version>0.8.16</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 		    <groupId>com.fasterxml.jackson.dataformat</groupId> -->
+<!-- 		    <artifactId>jackson-dataformat-yaml</artifactId> -->
+<!-- 		    <version>2.9.0</version> -->
+<!-- 		</dependency> -->
+		
     </dependencies>
     <properties>
         <jersey.version>3.0.0-M1</jersey.version>

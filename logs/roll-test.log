@@ -1,0 +1,796 @@
+2020-05-19 00:27:52,872 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-19 00:27:55,938 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] All enquries were fetched from the database successfully!
+2020-05-19 02:17:11,676 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] All enquries were fetched from the database successfully!
+2020-05-19 02:32:10,054 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-19 23:14:57,561 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-42] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 04:55:57,091 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-15] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:01:36,021 ERROR c.n.p.EnquiryResource [http-nio-8080-exec-5] Unable to fetch all enquiries from the database
+2020-05-24 05:03:53,513 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] All enquries were fetched from the database successfully!
+2020-05-24 05:11:21,061 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-2] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:11:28,115 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-12] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:11:29,030 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-10] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:11:30,596 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-24 05:37:00,154 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-28] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:37:35,582 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-29] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-24 05:38:10,029 INFO c.n.p.EnquiryResource [http-nio-8080-exec-22] Enquiry was submitted to the database successfully!
+2020-05-24 05:39:36,015 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] Enquiry was submitted to the database successfully!
+2020-05-24 05:45:23,498 INFO c.n.p.EnquiryResource [http-nio-8080-exec-41] Enquiry was submitted to the database successfully!
+2020-05-24 07:33:32,362 INFO c.n.p.EnquiryResource [http-nio-8080-exec-44] Enquiry was submitted to the database successfully!
+2020-05-24 07:33:36,027 INFO c.n.p.EnquiryResource [http-nio-8080-exec-42] Enquiry was submitted to the database successfully!
+2020-05-24 07:36:28,803 INFO c.n.p.EnquiryResource [http-nio-8080-exec-42] Enquiry was submitted to the database successfully!
+2020-05-24 07:36:52,223 INFO c.n.p.EnquiryResource [http-nio-8080-exec-43] Enquiry was submitted to the database successfully!
+2020-05-24 08:20:58,707 INFO c.n.p.EnquiryResource [http-nio-8080-exec-48] Enquiry was submitted to the database successfully!
+2020-05-24 08:20:59,934 INFO c.n.p.EnquiryResource [http-nio-8080-exec-43] Enquiry was submitted to the database successfully!
+2020-05-24 08:21:00,195 INFO c.n.p.EnquiryResource [http-nio-8080-exec-44] Enquiry was submitted to the database successfully!
+2020-05-24 08:21:00,426 INFO c.n.p.EnquiryResource [http-nio-8080-exec-50] Enquiry was submitted to the database successfully!
+2020-05-24 08:21:00,646 INFO c.n.p.EnquiryResource [http-nio-8080-exec-41] Enquiry was submitted to the database successfully!
+2020-05-24 08:26:07,808 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was submitted to the database successfully!
+2020-05-24 10:10:12,912 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] All enquries were fetched from the database successfully!
+2020-05-24 10:13:46,779 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] All enquries were fetched from the database successfully!
+2020-05-24 10:14:17,046 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] All enquries were fetched from the database successfully!
+2020-05-24 10:15:24,255 INFO c.n.p.EnquiryResource [http-nio-8080-exec-11] Enquiry was submitted to the database successfully!
+2020-05-24 10:53:42,504 INFO c.n.p.EnquiryResource [http-nio-8080-exec-13] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:43,664 INFO c.n.p.EnquiryResource [http-nio-8080-exec-20] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:44,536 INFO c.n.p.EnquiryResource [http-nio-8080-exec-14] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:44,763 INFO c.n.p.EnquiryResource [http-nio-8080-exec-16] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:44,808 INFO c.n.p.EnquiryResource [http-nio-8080-exec-13] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:45,148 INFO c.n.p.EnquiryResource [http-nio-8080-exec-17] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:45,259 INFO c.n.p.EnquiryResource [http-nio-8080-exec-11] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:45,463 INFO c.n.p.EnquiryResource [http-nio-8080-exec-12] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:45,634 INFO c.n.p.EnquiryResource [http-nio-8080-exec-19] Enquiry was submitted to the database successfully!
+2020-05-24 11:06:46,236 INFO c.n.p.EnquiryResource [http-nio-8080-exec-15] Enquiry was submitted to the database successfully!
+2020-05-24 11:16:24,457 INFO c.n.p.EnquiryResource [http-nio-8080-exec-19] Enquiry was submitted to the database successfully!
+2020-05-24 11:17:20,097 INFO c.n.p.EnquiryResource [http-nio-8080-exec-19] Enquiry was submitted to the database successfully!
+2020-05-24 11:21:34,854 INFO c.n.p.EnquiryResource [http-nio-8080-exec-17] Enquiry was submitted to the database successfully!
+2020-05-24 11:21:38,651 INFO c.n.p.EnquiryResource [http-nio-8080-exec-12] Enquiry was submitted to the database successfully!
+2020-05-24 11:22:03,122 INFO c.n.p.EnquiryResource [http-nio-8080-exec-12] Enquiry was submitted to the database successfully!
+2020-05-24 11:30:57,735 INFO c.n.p.EnquiryResource [http-nio-8080-exec-16] Enquiry was submitted to the database successfully!
+2020-05-24 11:34:54,086 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was submitted to the database successfully!
+2020-05-24 11:36:48,021 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was submitted to the database successfully!
+2020-05-24 11:40:17,407 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] Enquiry was submitted to the database successfully!
+2020-05-24 11:40:51,253 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] Enquiry was submitted to the database successfully!
+2020-05-24 11:45:05,664 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was submitted to the database successfully!
+2020-05-24 11:47:58,561 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was submitted to the database successfully!
+2020-05-24 11:48:59,325 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] Enquiry was submitted to the database successfully!
+2020-05-24 11:50:26,058 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was submitted to the database successfully!
+2020-05-24 11:51:25,567 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] Enquiry was submitted to the database successfully!
+2020-05-24 11:57:37,412 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] Enquiry was submitted to the database successfully!
+2020-05-24 12:01:59,133 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] Enquiry was submitted to the database successfully!
+2020-05-24 12:03:16,221 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] Enquiry was submitted to the database successfully!
+2020-05-24 12:03:30,162 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] Enquiry was submitted to the database successfully!
+2020-05-24 12:08:10,383 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was submitted to the database successfully!
+2020-05-24 12:10:15,492 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] Enquiry was submitted to the database successfully!
+2020-05-24 12:12:12,481 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] Enquiry was submitted to the database successfully!
+2020-05-24 20:26:57,691 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was submitted to the database successfully!
+2020-05-24 20:27:16,954 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was submitted to the database successfully!
+2020-05-24 20:27:41,858 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was submitted to the database successfully!
+2020-05-24 20:41:00,184 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was submitted to the database successfully!
+2020-05-24 21:06:20,509 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was submitted to the database successfully!
+2020-05-25 13:21:33,514 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-25 14:19:50,580 INFO c.n.p.EnquiryResource [http-nio-8080-exec-11] All enquries were fetched from the database successfully!
+2020-05-25 14:20:10,791 INFO c.n.p.EnquiryResource [http-nio-8080-exec-12] All enquries were fetched from the database successfully!
+2020-05-25 14:20:34,187 INFO c.n.p.EnquiryResource [http-nio-8080-exec-13] All enquries were fetched from the database successfully!
+2020-05-25 14:20:36,161 INFO c.n.p.EnquiryResource [http-nio-8080-exec-14] All enquries were fetched from the database successfully!
+2020-05-25 14:21:59,068 INFO c.n.p.EnquiryResource [http-nio-8080-exec-21] All enquries were fetched from the database successfully!
+2020-05-25 17:14:46,728 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 17:17:39,744 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 17:22:52,398 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 17:23:15,282 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 17:25:17,764 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 17:25:23,121 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 17:25:39,720 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 17:39:14,627 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 17:54:26,256 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 17:54:32,536 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 17:55:13,070 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 17:58:53,044 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 17:59:16,420 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 18:00:11,630 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 18:00:24,295 INFO c.n.p.EnquiryResource [http-nio-8080-exec-23] All enquries were fetched from the database successfully!
+2020-05-25 18:02:06,087 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 18:03:33,014 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 18:03:43,300 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 18:04:00,484 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 18:06:31,251 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 18:08:39,413 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 18:09:00,398 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 18:11:23,856 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 18:18:51,374 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 18:21:33,530 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 18:25:18,082 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 18:36:32,246 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 18:47:55,221 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 18:49:09,169 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 18:54:39,807 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 18:58:25,008 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 18:59:00,792 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 18:59:54,168 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 19:14:20,370 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 19:17:03,073 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 19:17:44,705 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 19:26:33,510 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 19:26:39,019 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 19:28:59,704 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 19:29:04,414 INFO c.n.p.EnquiryResource [http-nio-8080-exec-23] All enquries were fetched from the database successfully!
+2020-05-25 19:29:36,631 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 19:30:26,233 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 19:30:34,044 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 19:30:46,741 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 19:31:21,696 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 19:34:16,325 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 19:35:34,208 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 19:35:53,994 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 19:36:03,693 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 19:41:01,803 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 19:41:25,290 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 19:41:59,978 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 19:43:00,122 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 19:43:54,435 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 19:46:31,683 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 19:49:46,826 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 20:02:20,611 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:03:41,788 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 20:05:20,794 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 20:05:23,556 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 20:05:32,314 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:06:22,518 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 20:06:26,878 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:09:40,006 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-25 20:12:31,700 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:14:28,182 INFO c.n.p.EnquiryResource [http-nio-8080-exec-23] All enquries were fetched from the database successfully!
+2020-05-25 20:14:31,003 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 20:14:38,080 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 20:16:47,333 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 20:17:04,368 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 20:17:15,175 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:17:20,346 INFO c.n.p.EnquiryResource [http-nio-8080-exec-24] All enquries were fetched from the database successfully!
+2020-05-25 20:23:02,059 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-25 20:24:02,167 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] Enquiry was submitted to the database successfully!
+2020-05-25 20:27:11,478 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] Enquiry was submitted to the database successfully!
+2020-05-25 20:28:39,565 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 20:34:35,417 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] All enquries were fetched from the database successfully!
+2020-05-25 20:34:53,079 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-25 20:39:14,969 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] All enquries were fetched from the database successfully!
+2020-05-25 20:48:14,081 INFO c.n.p.EnquiryResource [http-nio-8080-exec-14] All enquries were fetched from the database successfully!
+2020-05-25 20:48:49,430 INFO c.n.p.EnquiryResource [http-nio-8080-exec-12] Enquiry was submitted to the database successfully!
+2020-05-25 20:50:25,714 INFO c.n.p.EnquiryResource [http-nio-8080-exec-15] All enquries were fetched from the database successfully!
+2020-05-25 20:54:39,678 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] Enquiry was submitted to the database successfully!
+2020-05-25 20:55:54,036 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 20:57:15,681 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] All enquries were fetched from the database successfully!
+2020-05-25 20:57:33,112 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was submitted to the database successfully!
+2020-05-25 20:57:57,172 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was submitted to the database successfully!
+2020-05-25 20:57:59,228 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] Enquiry was submitted to the database successfully!
+2020-05-25 20:57:59,431 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was submitted to the database successfully!
+2020-05-25 20:57:59,614 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:00,505 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:01,156 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:02,236 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 20:58:04,070 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:04,484 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:05,157 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:05,305 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:05,498 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] Enquiry was submitted to the database successfully!
+2020-05-25 20:58:08,754 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 20:58:15,824 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was submitted to the database successfully!
+2020-05-25 20:59:02,861 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 20:59:09,549 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] Enquiry was submitted to the database successfully!
+2020-05-25 21:00:27,896 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 21:01:00,282 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] All enquries were fetched from the database successfully!
+2020-05-25 21:01:14,698 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was submitted to the database successfully!
+2020-05-25 21:01:19,541 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 21:01:22,512 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 21:01:25,833 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 21:01:36,848 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 21:03:37,309 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 21:04:13,262 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 21:04:34,247 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 21:04:39,305 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 21:04:41,438 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 21:05:00,970 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] All enquries were fetched from the database successfully!
+2020-05-25 21:28:44,377 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 21:32:08,852 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 21:32:45,751 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 21:33:43,049 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 22:01:25,102 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] All enquries were fetched from the database successfully!
+2020-05-25 22:01:37,029 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 22:01:43,836 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 22:18:51,411 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 22:24:16,848 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 22:24:30,649 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 22:24:34,339 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 22:24:40,196 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 22:30:25,061 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-29] Tour and Ride-Out was fetched from the database successfully!
+2020-05-25 22:30:25,069 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 22:30:29,495 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-32] Tour and Ride-Out was fetched from the database successfully!
+2020-05-25 22:30:29,506 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 22:30:47,090 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 22:30:49,591 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 22:30:55,382 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-35] Tour and Ride-Out was fetched from the database successfully!
+2020-05-25 22:30:55,392 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] All enquries were fetched from the database successfully!
+2020-05-25 22:31:36,243 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 22:31:36,251 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 22:33:37,825 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] Enquiry was fetched from the database successfully!
+2020-05-25 22:33:37,832 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 22:33:41,209 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] Enquiry was fetched from the database successfully!
+2020-05-25 22:33:41,216 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 22:33:43,719 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 22:33:43,730 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 22:34:25,251 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:25,258 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] All enquries were fetched from the database successfully!
+2020-05-25 22:34:28,376 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:28,384 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 22:34:33,525 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:33,533 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 22:34:41,806 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:41,813 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 22:34:43,375 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:43,380 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 22:34:45,148 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 22:34:45,156 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 22:37:32,854 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 22:37:32,862 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 22:37:48,627 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] Enquiry was fetched from the database successfully!
+2020-05-25 22:37:48,636 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 22:43:10,977 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 22:43:10,993 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 22:43:22,145 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] Enquiry was fetched from the database successfully!
+2020-05-25 22:43:22,152 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 22:44:18,049 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-25 22:44:18,059 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 22:45:02,978 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] Enquiry was fetched from the database successfully!
+2020-05-25 22:45:02,986 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 22:46:45,800 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 22:46:45,811 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] All enquries were fetched from the database successfully!
+2020-05-25 22:46:53,161 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] Enquiry was fetched from the database successfully!
+2020-05-25 22:46:53,170 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 22:47:03,851 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] Enquiry was fetched from the database successfully!
+2020-05-25 22:47:03,859 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] All enquries were fetched from the database successfully!
+2020-05-25 22:47:55,393 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] Enquiry was fetched from the database successfully!
+2020-05-25 22:47:55,404 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] All enquries were fetched from the database successfully!
+2020-05-25 22:59:14,848 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] Enquiry was fetched from the database successfully!
+2020-05-25 22:59:14,857 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 23:01:42,116 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 23:01:42,130 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 23:02:18,426 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-25 23:02:18,436 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 23:05:30,448 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 23:05:30,457 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 23:09:58,174 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 23:09:58,194 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] All enquries were fetched from the database successfully!
+2020-05-25 23:15:53,912 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-25 23:15:53,926 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 23:16:04,689 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was fetched from the database successfully!
+2020-05-25 23:16:04,698 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 23:17:18,422 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 23:17:18,430 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-25 23:29:11,337 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-25 23:29:11,346 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-25 23:29:23,643 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] Enquiry was fetched from the database successfully!
+2020-05-25 23:29:23,652 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 23:29:56,281 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] Enquiry was fetched from the database successfully!
+2020-05-25 23:29:56,290 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-25 23:36:27,054 INFO c.n.p.EnquiryResource [http-nio-8080-exec-29] Enquiry was fetched from the database successfully!
+2020-05-25 23:36:27,064 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-25 23:36:36,664 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-25 23:36:36,675 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-25 23:38:16,575 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-25 23:38:16,584 INFO c.n.p.EnquiryResource [http-nio-8080-exec-33] All enquries were fetched from the database successfully!
+2020-05-25 23:50:04,988 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] Enquiry was fetched from the database successfully!
+2020-05-25 23:50:04,997 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-25 23:53:52,308 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-25 23:54:00,966 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was fetched from the database successfully!
+2020-05-25 23:54:00,985 INFO c.n.p.EnquiryResource [http-nio-8080-exec-2] All enquries were fetched from the database successfully!
+2020-05-25 23:54:49,658 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] Enquiry was fetched from the database successfully!
+2020-05-25 23:54:49,678 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] All enquries were fetched from the database successfully!
+2020-05-25 23:55:33,820 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was fetched from the database successfully!
+2020-05-25 23:55:33,838 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-26 00:07:36,309 INFO c.n.p.EnquiryResource [http-nio-8080-exec-9] Enquiry was fetched from the database successfully!
+2020-05-26 00:07:36,325 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] All enquries were fetched from the database successfully!
+2020-05-26 00:08:33,036 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] Enquiry was fetched from the database successfully!
+2020-05-26 00:08:33,051 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] All enquries were fetched from the database successfully!
+2020-05-26 00:08:39,753 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was fetched from the database successfully!
+2020-05-26 00:08:39,768 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-26 00:09:25,926 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was fetched from the database successfully!
+2020-05-26 00:09:25,940 INFO c.n.p.EnquiryResource [http-nio-8080-exec-9] All enquries were fetched from the database successfully!
+2020-05-26 00:12:04,778 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] Enquiry was fetched from the database successfully!
+2020-05-26 00:12:04,806 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] All enquries were fetched from the database successfully!
+2020-05-26 00:13:48,466 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was fetched from the database successfully!
+2020-05-26 00:13:48,479 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-26 00:13:51,376 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was fetched from the database successfully!
+2020-05-26 00:13:51,387 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] All enquries were fetched from the database successfully!
+2020-05-26 00:14:05,844 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] Enquiry was fetched from the database successfully!
+2020-05-26 00:14:05,860 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] All enquries were fetched from the database successfully!
+2020-05-26 00:14:12,591 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was fetched from the database successfully!
+2020-05-26 00:14:12,607 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] All enquries were fetched from the database successfully!
+2020-05-26 00:14:18,241 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] Enquiry was fetched from the database successfully!
+2020-05-26 00:14:18,251 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-26 00:21:06,982 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] Enquiry was fetched from the database successfully!
+2020-05-26 00:21:07,000 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] All enquries were fetched from the database successfully!
+2020-05-26 00:21:17,484 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] Enquiry was fetched from the database successfully!
+2020-05-26 00:21:17,497 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] All enquries were fetched from the database successfully!
+2020-05-26 00:34:40,301 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] Enquiry was fetched from the database successfully!
+2020-05-26 00:34:40,312 INFO c.n.p.EnquiryResource [http-nio-8080-exec-8] All enquries were fetched from the database successfully!
+2020-05-26 00:37:06,022 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was fetched from the database successfully!
+2020-05-26 00:37:06,034 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-26 00:38:49,672 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was fetched from the database successfully!
+2020-05-26 00:38:49,696 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] All enquries were fetched from the database successfully!
+2020-05-26 02:06:37,704 INFO c.n.p.EnquiryResource [http-nio-8080-exec-15] Enquiry was fetched from the database successfully!
+2020-05-26 02:06:37,903 INFO c.n.p.EnquiryResource [http-nio-8080-exec-9] All enquries were fetched from the database successfully!
+2020-05-26 02:07:33,908 INFO c.n.p.EnquiryResource [http-nio-8080-exec-6] Enquiry was fetched from the database successfully!
+2020-05-26 02:07:33,918 INFO c.n.p.EnquiryResource [http-nio-8080-exec-11] All enquries were fetched from the database successfully!
+2020-05-26 02:12:48,802 INFO c.n.p.EnquiryResource [http-nio-8080-exec-16] Enquiry was fetched from the database successfully!
+2020-05-26 02:12:49,009 INFO c.n.p.EnquiryResource [http-nio-8080-exec-22] All enquries were fetched from the database successfully!
+2020-05-26 02:12:54,991 INFO c.n.p.EnquiryResource [http-nio-8080-exec-19] Enquiry was fetched from the database successfully!
+2020-05-26 02:12:55,001 INFO c.n.p.EnquiryResource [http-nio-8080-exec-27] All enquries were fetched from the database successfully!
+2020-05-26 02:17:23,582 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] Enquiry was fetched from the database successfully!
+2020-05-26 02:17:23,788 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] All enquries were fetched from the database successfully!
+2020-05-26 02:21:52,884 INFO c.n.p.EnquiryResource [http-nio-8080-exec-3] Enquiry was fetched from the database successfully!
+2020-05-26 02:21:53,090 INFO c.n.p.EnquiryResource [http-nio-8080-exec-4] All enquries were fetched from the database successfully!
+2020-05-26 02:22:53,827 INFO c.n.p.EnquiryResource [http-nio-8080-exec-5] Enquiry was fetched from the database successfully!
+2020-05-26 02:22:53,836 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] All enquries were fetched from the database successfully!
+2020-05-26 02:22:57,308 INFO c.n.p.EnquiryResource [http-nio-8080-exec-14] Enquiry was fetched from the database successfully!
+2020-05-26 02:22:57,319 INFO c.n.p.EnquiryResource [http-nio-8080-exec-10] All enquries were fetched from the database successfully!
+2020-05-26 02:22:59,648 INFO c.n.p.EnquiryResource [http-nio-8080-exec-1] Enquiry was fetched from the database successfully!
+2020-05-26 02:22:59,659 INFO c.n.p.EnquiryResource [http-nio-8080-exec-7] All enquries were fetched from the database successfully!
+2020-05-26 02:23:05,971 INFO c.n.p.EnquiryResource [http-nio-8080-exec-11] Enquiry was fetched from the database successfully!
+2020-05-26 02:23:05,978 INFO c.n.p.EnquiryResource [http-nio-8080-exec-16] All enquries were fetched from the database successfully!
+2020-05-26 02:24:24,187 INFO c.n.p.EnquiryResource [http-nio-8080-exec-17] Enquiry was fetched from the database successfully!
+2020-05-26 02:24:24,198 INFO c.n.p.EnquiryResource [http-nio-8080-exec-16] All enquries were fetched from the database successfully!
+2020-05-26 02:24:26,580 INFO c.n.p.EnquiryResource [http-nio-8080-exec-18] Enquiry was fetched from the database successfully!
+2020-05-26 02:24:26,588 INFO c.n.p.EnquiryResource [http-nio-8080-exec-20] All enquries were fetched from the database successfully!
+2020-05-26 02:32:36,408 INFO c.n.p.EnquiryResource [http-nio-8080-exec-17] Enquiry was fetched from the database successfully!
+2020-05-26 02:32:36,686 INFO c.n.p.EnquiryResource [http-nio-8080-exec-25] All enquries were fetched from the database successfully!
+2020-05-26 02:43:14,699 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-26 03:01:14,509 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] Enquiry was fetched from the database successfully!
+2020-05-26 03:01:14,518 INFO c.n.p.EnquiryResource [http-nio-8080-exec-30] All enquries were fetched from the database successfully!
+2020-05-26 03:01:18,032 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] Enquiry was fetched from the database successfully!
+2020-05-26 03:01:18,041 INFO c.n.p.EnquiryResource [http-nio-8080-exec-28] All enquries were fetched from the database successfully!
+2020-05-26 03:08:08,156 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] Enquiry was fetched from the database successfully!
+2020-05-26 03:08:08,167 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-26 03:13:47,660 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] Enquiry was fetched from the database successfully!
+2020-05-26 03:13:47,670 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-26 03:14:18,304 INFO c.n.p.EnquiryResource [http-nio-8080-exec-31] Enquiry was fetched from the database successfully!
+2020-05-26 03:14:18,314 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] All enquries were fetched from the database successfully!
+2020-05-26 03:23:05,202 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-26 03:23:31,718 INFO c.n.p.EnquiryResource [http-nio-8080-exec-34] All enquries were fetched from the database successfully!
+2020-05-26 03:23:55,329 INFO c.n.p.EnquiryResource [http-nio-8080-exec-26] Enquiry was fetched from the database successfully!
+2020-05-26 03:23:55,340 INFO c.n.p.EnquiryResource [http-nio-8080-exec-35] All enquries were fetched from the database successfully!
+2020-05-26 03:24:57,357 INFO c.n.p.EnquiryResource [http-nio-8080-exec-32] All enquries were fetched from the database successfully!
+2020-05-26 03:39:55,557 INFO c.n.p.EnquiryResource [http-nio-8080-exec-37] Enquiry was fetched from the database successfully!
+2020-05-26 03:39:55,801 INFO c.n.p.EnquiryResource [http-nio-8080-exec-40] All enquries were fetched from the database successfully!
+2020-05-26 03:40:43,000 INFO c.n.p.EnquiryResource [http-nio-8080-exec-44] Enquiry was fetched from the database successfully!
+2020-05-26 03:40:43,013 INFO c.n.p.EnquiryResource [http-nio-8080-exec-38] All enquries were fetched from the database successfully!
+2020-05-26 03:50:36,454 INFO c.n.p.EnquiryResource [http-nio-8080-exec-36] Enquiry was fetched from the database successfully!
+2020-05-26 03:50:36,454 INFO c.n.p.EnquiryResource [http-nio-8080-exec-46] Enquiry was fetched from the database successfully!
+2020-05-26 03:50:36,648 INFO c.n.p.EnquiryResource [http-nio-8080-exec-50] All enquries were fetched from the database successfully!
+2020-05-26 03:50:36,648 INFO c.n.p.EnquiryResource [http-nio-8080-exec-43] All enquries were fetched from the database successfully!
+2020-05-26 03:52:25,488 INFO c.n.p.EnquiryResource [http-nio-8080-exec-38] Enquiry was fetched from the database successfully!
+2020-05-26 03:52:25,782 INFO c.n.p.EnquiryResource [http-nio-8080-exec-51] All enquries were fetched from the database successfully!
+2020-05-26 03:58:34,447 INFO c.n.p.EnquiryResource [http-nio-8080-exec-54] Enquiry was fetched from the database successfully!
+2020-05-26 03:58:34,612 INFO c.n.p.EnquiryResource [http-nio-8080-exec-59] All enquries were fetched from the database successfully!
+2020-05-26 04:05:51,053 INFO c.n.p.EnquiryResource [http-nio-8080-exec-67] Enquiry was fetched from the database successfully!
+2020-05-26 04:05:51,063 INFO c.n.p.EnquiryResource [http-nio-8080-exec-69] All enquries were fetched from the database successfully!
+2020-05-26 11:48:56,796 INFO c.n.p.EnquiryResource [http-nio-8080-exec-70] Enquiry was fetched from the database successfully!
+2020-05-26 11:48:56,814 INFO c.n.p.EnquiryResource [http-nio-8080-exec-72] All enquries were fetched from the database successfully!
+2020-05-26 11:49:11,389 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-69] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:51:30,413 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-70] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:51:33,208 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-66] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:51:34,540 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-69] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:51:35,506 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-70] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:51:43,817 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-66] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:52:55,189 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-74] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:53:54,664 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-72] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:54:07,114 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-67] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:54:19,164 INFO c.n.p.EnquiryResource [http-nio-8080-exec-72] Enquiry was fetched from the database successfully!
+2020-05-26 11:54:19,177 INFO c.n.p.EnquiryResource [http-nio-8080-exec-68] All enquries were fetched from the database successfully!
+2020-05-26 11:54:26,756 INFO c.n.p.EnquiryResource [http-nio-8080-exec-73] Enquiry was fetched from the database successfully!
+2020-05-26 11:54:26,769 INFO c.n.p.EnquiryResource [http-nio-8080-exec-70] All enquries were fetched from the database successfully!
+2020-05-26 11:54:32,963 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-71] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 11:59:30,667 INFO c.n.p.EnquiryResource [http-nio-8080-exec-70] Enquiry was fetched from the database successfully!
+2020-05-26 11:59:30,678 INFO c.n.p.EnquiryResource [http-nio-8080-exec-66] All enquries were fetched from the database successfully!
+2020-05-26 11:59:32,515 INFO c.n.p.EnquiryResource [http-nio-8080-exec-68] Enquiry was fetched from the database successfully!
+2020-05-26 11:59:32,527 INFO c.n.p.EnquiryResource [http-nio-8080-exec-74] All enquries were fetched from the database successfully!
+2020-05-26 11:59:49,119 INFO c.n.p.EnquiryResource [http-nio-8080-exec-66] Enquiry was fetched from the database successfully!
+2020-05-26 11:59:49,137 INFO c.n.p.EnquiryResource [http-nio-8080-exec-75] All enquries were fetched from the database successfully!
+2020-05-26 11:59:52,830 INFO c.n.p.EnquiryResource [http-nio-8080-exec-74] Enquiry was fetched from the database successfully!
+2020-05-26 11:59:52,841 INFO c.n.p.EnquiryResource [http-nio-8080-exec-71] All enquries were fetched from the database successfully!
+2020-05-26 12:01:29,402 INFO c.n.p.EnquiryResource [http-nio-8080-exec-72] Enquiry was fetched from the database successfully!
+2020-05-26 12:01:29,881 INFO c.n.p.EnquiryResource [http-nio-8080-exec-68] All enquries were fetched from the database successfully!
+2020-05-26 12:39:59,002 INFO c.n.p.EnquiryResource [http-nio-8080-exec-78] Enquiry was fetched from the database successfully!
+2020-05-26 12:39:59,017 INFO c.n.p.EnquiryResource [http-nio-8080-exec-80] All enquries were fetched from the database successfully!
+2020-05-26 12:40:03,181 INFO c.n.p.EnquiryResource [http-nio-8080-exec-76] Enquiry was fetched from the database successfully!
+2020-05-26 12:40:03,192 INFO c.n.p.EnquiryResource [http-nio-8080-exec-84] All enquries were fetched from the database successfully!
+2020-05-26 12:40:05,655 INFO c.n.p.EnquiryResource [http-nio-8080-exec-79] Enquiry was fetched from the database successfully!
+2020-05-26 12:40:05,669 INFO c.n.p.EnquiryResource [http-nio-8080-exec-77] All enquries were fetched from the database successfully!
+2020-05-26 12:40:23,149 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-84] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:42:39,937 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-82] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:45:46,955 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-88] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:45:46,971 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-86] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:49:33,942 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-95] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:49:38,012 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-78] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:49:38,041 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-77] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:55:14,514 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-94] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:55:14,532 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-98] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:55:28,104 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-101] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:55:28,129 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-102] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:55:31,818 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-94] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:55:31,830 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-98] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:56:11,460 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-102] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:56:11,470 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-94] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:56:15,378 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-103] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:56:15,390 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-95] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 12:56:20,391 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-100] Tour and Ride-Out was fetched from the database successfully!
+2020-05-26 12:56:20,407 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-96] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-26 13:17:52,775 INFO c.n.p.EnquiryResource [http-nio-8080-exec-111] All enquries were fetched from the database successfully!
+2020-05-26 13:18:20,228 INFO c.n.p.EnquiryResource [http-nio-8080-exec-104] Enquiry was fetched from the database successfully!
+2020-05-26 14:20:09,083 INFO c.n.p.EnquiryResource [http-nio-8080-exec-135] Enquiry was fetched from the database successfully!
+2020-05-26 14:20:09,211 INFO c.n.p.EnquiryResource [http-nio-8080-exec-141] All enquries were fetched from the database successfully!
+2020-05-26 14:22:59,192 INFO c.n.p.EnquiryResource [http-nio-8080-exec-138] Enquiry was fetched from the database successfully!
+2020-05-26 14:22:59,207 INFO c.n.p.EnquiryResource [http-nio-8080-exec-135] All enquries were fetched from the database successfully!
+2020-05-26 14:23:46,145 INFO c.n.p.EnquiryResource [http-nio-8080-exec-143] Enquiry was fetched from the database successfully!
+2020-05-26 14:23:46,172 INFO c.n.p.EnquiryResource [http-nio-8080-exec-144] All enquries were fetched from the database successfully!
+2020-05-26 14:24:11,841 INFO c.n.p.EnquiryResource [http-nio-8080-exec-143] Enquiry was fetched from the database successfully!
+2020-05-26 14:24:11,853 INFO c.n.p.EnquiryResource [http-nio-8080-exec-136] Enquiry was fetched from the database successfully!
+2020-05-26 14:24:11,867 INFO c.n.p.EnquiryResource [http-nio-8080-exec-139] All enquries were fetched from the database successfully!
+2020-05-26 14:24:11,888 INFO c.n.p.EnquiryResource [http-nio-8080-exec-138] All enquries were fetched from the database successfully!
+2020-05-26 14:24:15,055 INFO c.n.p.EnquiryResource [http-nio-8080-exec-137] Enquiry was fetched from the database successfully!
+2020-05-26 14:27:23,789 INFO c.n.p.EnquiryResource [http-nio-8080-exec-140] Enquiry was fetched from the database successfully!
+2020-05-26 14:27:24,088 INFO c.n.p.EnquiryResource [http-nio-8080-exec-142] All enquries were fetched from the database successfully!
+2020-05-26 14:27:30,466 INFO c.n.p.EnquiryResource [http-nio-8080-exec-141] Enquiry was fetched from the database successfully!
+2020-05-26 14:27:30,479 INFO c.n.p.EnquiryResource [http-nio-8080-exec-146] All enquries were fetched from the database successfully!
+2020-05-26 14:31:44,661 INFO c.n.p.EnquiryResource [http-nio-8080-exec-147] Enquiry was fetched from the database successfully!
+2020-05-26 14:31:44,892 INFO c.n.p.EnquiryResource [http-nio-8080-exec-146] All enquries were fetched from the database successfully!
+2020-05-26 14:31:54,090 INFO c.n.p.EnquiryResource [http-nio-8080-exec-149] Enquiry was fetched from the database successfully!
+2020-05-26 14:39:32,761 INFO c.n.p.EnquiryResource [http-nio-8080-exec-153] Enquiry was fetched from the database successfully!
+2020-05-26 14:39:32,778 INFO c.n.p.EnquiryResource [http-nio-8080-exec-155] All enquries were fetched from the database successfully!
+2020-05-26 14:39:53,966 INFO c.n.p.EnquiryResource [http-nio-8080-exec-158] Enquiry was fetched from the database successfully!
+2020-05-26 14:42:55,690 INFO c.n.p.EnquiryResource [http-nio-8080-exec-154] Enquiry was fetched from the database successfully!
+2020-05-26 14:42:55,869 INFO c.n.p.EnquiryResource [http-nio-8080-exec-155] All enquries were fetched from the database successfully!
+2020-05-26 14:47:42,604 INFO c.n.p.EnquiryResource [http-nio-8080-exec-163] Enquiry was fetched from the database successfully!
+2020-05-26 14:47:42,617 INFO c.n.p.EnquiryResource [http-nio-8080-exec-165] All enquries were fetched from the database successfully!
+2020-05-26 14:56:55,603 INFO c.n.p.EnquiryResource [http-nio-8080-exec-162] All enquries were fetched from the database successfully!
+2020-05-26 14:57:06,359 INFO c.n.p.EnquiryResource [http-nio-8080-exec-168] Enquiry was fetched from the database successfully!
+2020-05-26 14:57:06,373 INFO c.n.p.EnquiryResource [http-nio-8080-exec-170] All enquries were fetched from the database successfully!
+2020-05-26 14:58:36,583 INFO c.n.p.EnquiryResource [http-nio-8080-exec-162] Enquiry was fetched from the database successfully!
+2020-05-26 14:58:36,592 INFO c.n.p.EnquiryResource [http-nio-8080-exec-166] All enquries were fetched from the database successfully!
+2020-05-26 14:58:45,107 INFO c.n.p.EnquiryResource [http-nio-8080-exec-167] All enquries were fetched from the database successfully!
+2020-05-26 14:58:48,540 INFO c.n.p.EnquiryResource [http-nio-8080-exec-163] Enquiry was fetched from the database successfully!
+2020-05-26 14:58:48,548 INFO c.n.p.EnquiryResource [http-nio-8080-exec-165] All enquries were fetched from the database successfully!
+2020-05-26 15:12:16,971 INFO c.n.p.EnquiryResource [http-nio-8080-exec-169] All enquries were fetched from the database successfully!
+2020-05-26 15:12:21,854 INFO c.n.p.EnquiryResource [http-nio-8080-exec-165] Enquiry was fetched from the database successfully!
+2020-05-26 15:12:21,873 INFO c.n.p.EnquiryResource [http-nio-8080-exec-166] All enquries were fetched from the database successfully!
+2020-05-26 15:12:52,734 INFO c.n.p.EnquiryResource [http-nio-8080-exec-170] Enquiry was fetched from the database successfully!
+2020-05-26 15:12:52,747 INFO c.n.p.EnquiryResource [http-nio-8080-exec-167] All enquries were fetched from the database successfully!
+2020-05-26 15:13:04,308 INFO c.n.p.EnquiryResource [http-nio-8080-exec-166] Enquiry was fetched from the database successfully!
+2020-05-26 15:13:04,320 INFO c.n.p.EnquiryResource [http-nio-8080-exec-162] All enquries were fetched from the database successfully!
+2020-05-26 15:13:09,977 INFO c.n.p.EnquiryResource [http-nio-8080-exec-168] All enquries were fetched from the database successfully!
+2020-05-26 15:13:16,344 INFO c.n.p.EnquiryResource [http-nio-8080-exec-166] Enquiry was fetched from the database successfully!
+2020-05-26 15:13:16,352 INFO c.n.p.EnquiryResource [http-nio-8080-exec-171] All enquries were fetched from the database successfully!
+2020-05-26 15:38:11,846 INFO c.n.p.EnquiryResource [http-nio-8080-exec-168] Enquiry was fetched from the database successfully!
+2020-05-26 15:38:12,286 INFO c.n.p.EnquiryResource [http-nio-8080-exec-165] All enquries were fetched from the database successfully!
+2020-05-26 15:43:56,923 INFO c.n.p.EnquiryResource [http-nio-8080-exec-178] Enquiry was fetched from the database successfully!
+2020-05-26 15:43:57,429 INFO c.n.p.EnquiryResource [http-nio-8080-exec-169] All enquries were fetched from the database successfully!
+2020-05-26 15:46:26,483 INFO c.n.p.EnquiryResource [http-nio-8080-exec-162] Enquiry was fetched from the database successfully!
+2020-05-26 15:46:26,678 INFO c.n.p.EnquiryResource [http-nio-8080-exec-183] All enquries were fetched from the database successfully!
+2020-05-26 16:00:08,286 INFO c.n.p.EnquiryResource [http-nio-8080-exec-199] All enquries were fetched from the database successfully!
+2020-05-26 16:19:15,523 INFO c.n.p.EnquiryResource [http-nio-8080-exec-209] Enquiry was fetched from the database successfully!
+2020-05-26 16:19:15,819 INFO c.n.p.EnquiryResource [http-nio-8080-exec-205] All enquries were fetched from the database successfully!
+2020-05-26 16:19:23,925 INFO c.n.p.EnquiryResource [http-nio-8080-exec-207] Enquiry was fetched from the database successfully!
+2020-05-26 16:19:23,938 INFO c.n.p.EnquiryResource [http-nio-8080-exec-200] All enquries were fetched from the database successfully!
+2020-05-26 16:20:59,201 INFO c.n.p.EnquiryResource [http-nio-8080-exec-208] Enquiry was fetched from the database successfully!
+2020-05-26 16:20:59,213 INFO c.n.p.EnquiryResource [http-nio-8080-exec-213] All enquries were fetched from the database successfully!
+2020-05-26 16:21:02,654 INFO c.n.p.EnquiryResource [http-nio-8080-exec-209] Enquiry was fetched from the database successfully!
+2020-05-26 16:21:02,668 INFO c.n.p.EnquiryResource [http-nio-8080-exec-200] All enquries were fetched from the database successfully!
+2020-05-26 16:21:36,661 INFO c.n.p.EnquiryResource [http-nio-8080-exec-213] Enquiry was fetched from the database successfully!
+2020-05-26 16:21:36,673 INFO c.n.p.EnquiryResource [http-nio-8080-exec-210] All enquries were fetched from the database successfully!
+2020-05-26 16:21:49,093 INFO c.n.p.EnquiryResource [http-nio-8080-exec-204] Enquiry was fetched from the database successfully!
+2020-05-26 16:21:49,111 INFO c.n.p.EnquiryResource [http-nio-8080-exec-213] All enquries were fetched from the database successfully!
+2020-05-26 16:21:56,516 INFO c.n.p.EnquiryResource [http-nio-8080-exec-215] Enquiry was fetched from the database successfully!
+2020-05-26 16:21:56,537 INFO c.n.p.EnquiryResource [http-nio-8080-exec-217] All enquries were fetched from the database successfully!
+2020-05-26 16:22:02,032 INFO c.n.p.EnquiryResource [http-nio-8080-exec-213] Enquiry was fetched from the database successfully!
+2020-05-26 16:22:02,046 INFO c.n.p.EnquiryResource [http-nio-8080-exec-210] All enquries were fetched from the database successfully!
+2020-05-26 16:22:23,499 INFO c.n.p.EnquiryResource [http-nio-8080-exec-214] Enquiry was fetched from the database successfully!
+2020-05-26 16:22:23,511 INFO c.n.p.EnquiryResource [http-nio-8080-exec-211] All enquries were fetched from the database successfully!
+2020-05-26 16:22:36,885 INFO c.n.p.EnquiryResource [http-nio-8080-exec-216] Enquiry was fetched from the database successfully!
+2020-05-26 16:22:36,899 INFO c.n.p.EnquiryResource [http-nio-8080-exec-212] All enquries were fetched from the database successfully!
+2020-05-26 16:37:27,738 INFO c.n.p.EnquiryResource [http-nio-8080-exec-217] Enquiry was fetched from the database successfully!
+2020-05-26 16:37:27,754 INFO c.n.p.EnquiryResource [http-nio-8080-exec-208] All enquries were fetched from the database successfully!
+2020-05-26 16:37:35,478 INFO c.n.p.EnquiryResource [http-nio-8080-exec-215] Enquiry was fetched from the database successfully!
+2020-05-26 16:37:35,492 INFO c.n.p.EnquiryResource [http-nio-8080-exec-217] All enquries were fetched from the database successfully!
+2020-05-26 16:37:41,676 INFO c.n.p.EnquiryResource [http-nio-8080-exec-209] Enquiry was fetched from the database successfully!
+2020-05-26 16:37:41,685 INFO c.n.p.EnquiryResource [http-nio-8080-exec-215] All enquries were fetched from the database successfully!
+2020-05-26 16:37:59,639 INFO c.n.p.EnquiryResource [http-nio-8080-exec-208] Enquiry was fetched from the database successfully!
+2020-05-26 16:37:59,650 INFO c.n.p.EnquiryResource [http-nio-8080-exec-209] All enquries were fetched from the database successfully!
+2020-05-26 16:38:12,975 INFO c.n.p.EnquiryResource [http-nio-8080-exec-217] Enquiry was fetched from the database successfully!
+2020-05-26 16:38:12,986 INFO c.n.p.EnquiryResource [http-nio-8080-exec-208] All enquries were fetched from the database successfully!
+2020-05-26 16:38:50,859 INFO c.n.p.EnquiryResource [http-nio-8080-exec-215] All enquries were fetched from the database successfully!
+2020-05-26 16:40:37,836 INFO c.n.p.EnquiryResource [http-nio-8080-exec-213] All enquries were fetched from the database successfully!
+2020-05-26 16:40:52,455 INFO c.n.p.EnquiryResource [http-nio-8080-exec-212] All enquries were fetched from the database successfully!
+2020-05-26 17:42:04,947 INFO c.n.p.EnquiryResource [http-nio-8080-exec-234] Enquiry was fetched from the database successfully!
+2020-05-26 17:42:05,168 INFO c.n.p.EnquiryResource [http-nio-8080-exec-243] All enquries were fetched from the database successfully!
+2020-05-26 17:42:11,888 INFO c.n.p.EnquiryResource [http-nio-8080-exec-239] Enquiry was fetched from the database successfully!
+2020-05-26 17:42:11,900 INFO c.n.p.EnquiryResource [http-nio-8080-exec-244] All enquries were fetched from the database successfully!
+2020-05-26 17:42:15,893 INFO c.n.p.EnquiryResource [http-nio-8080-exec-240] Enquiry was fetched from the database successfully!
+2020-05-26 17:42:15,909 INFO c.n.p.EnquiryResource [http-nio-8080-exec-230] All enquries were fetched from the database successfully!
+2020-05-26 17:42:22,944 INFO c.n.p.EnquiryResource [http-nio-8080-exec-244] Enquiry was fetched from the database successfully!
+2020-05-26 17:42:22,954 INFO c.n.p.EnquiryResource [http-nio-8080-exec-242] All enquries were fetched from the database successfully!
+2020-05-26 17:59:11,805 INFO c.n.p.EnquiryResource [http-nio-8080-exec-248] Enquiry was fetched from the database successfully!
+2020-05-26 17:59:11,817 INFO c.n.p.EnquiryResource [http-nio-8080-exec-246] All enquries were fetched from the database successfully!
+2020-05-26 18:00:03,901 INFO c.n.p.EnquiryResource [http-nio-8080-exec-253] Enquiry was fetched from the database successfully!
+2020-05-26 18:00:03,910 INFO c.n.p.EnquiryResource [http-nio-8080-exec-248] All enquries were fetched from the database successfully!
+2020-05-26 18:00:45,033 INFO c.n.p.EnquiryResource [http-nio-8080-exec-249] Enquiry was fetched from the database successfully!
+2020-05-26 18:00:45,042 INFO c.n.p.EnquiryResource [http-nio-8080-exec-250] All enquries were fetched from the database successfully!
+2020-05-26 18:00:56,650 INFO c.n.p.EnquiryResource [http-nio-8080-exec-252] Enquiry was fetched from the database successfully!
+2020-05-26 18:00:56,660 INFO c.n.p.EnquiryResource [http-nio-8080-exec-246] All enquries were fetched from the database successfully!
+2020-05-26 18:01:02,701 INFO c.n.p.EnquiryResource [http-nio-8080-exec-250] Enquiry was fetched from the database successfully!
+2020-05-26 18:01:02,709 INFO c.n.p.EnquiryResource [http-nio-8080-exec-253] All enquries were fetched from the database successfully!
+2020-05-26 18:05:56,364 INFO c.n.p.EnquiryResource [http-nio-8080-exec-248] Enquiry was fetched from the database successfully!
+2020-05-26 18:05:56,372 INFO c.n.p.EnquiryResource [http-nio-8080-exec-251] All enquries were fetched from the database successfully!
+2020-05-26 18:06:02,038 INFO c.n.p.EnquiryResource [http-nio-8080-exec-244] Enquiry was fetched from the database successfully!
+2020-05-26 18:06:02,055 INFO c.n.p.EnquiryResource [http-nio-8080-exec-252] All enquries were fetched from the database successfully!
+2020-05-26 18:06:47,248 INFO c.n.p.EnquiryResource [http-nio-8080-exec-247] Enquiry was fetched from the database successfully!
+2020-05-26 18:06:47,259 INFO c.n.p.EnquiryResource [http-nio-8080-exec-245] All enquries were fetched from the database successfully!
+2020-05-26 18:06:59,066 INFO c.n.p.EnquiryResource [http-nio-8080-exec-250] Enquiry was fetched from the database successfully!
+2020-05-26 18:06:59,078 INFO c.n.p.EnquiryResource [http-nio-8080-exec-251] All enquries were fetched from the database successfully!
+2020-05-26 18:07:07,173 INFO c.n.p.EnquiryResource [http-nio-8080-exec-246] Enquiry was fetched from the database successfully!
+2020-05-26 18:07:07,181 INFO c.n.p.EnquiryResource [http-nio-8080-exec-248] All enquries were fetched from the database successfully!
+2020-05-26 18:07:52,276 INFO c.n.p.EnquiryResource [http-nio-8080-exec-247] Enquiry was fetched from the database successfully!
+2020-05-26 18:07:52,284 INFO c.n.p.EnquiryResource [http-nio-8080-exec-249] All enquries were fetched from the database successfully!
+2020-05-26 18:12:47,019 INFO c.n.p.EnquiryResource [http-nio-8080-exec-251] Enquiry was fetched from the database successfully!
+2020-05-26 18:12:47,209 INFO c.n.p.EnquiryResource [http-nio-8080-exec-247] All enquries were fetched from the database successfully!
+2020-05-26 18:12:56,475 INFO c.n.p.EnquiryResource [http-nio-8080-exec-250] Enquiry was fetched from the database successfully!
+2020-05-26 18:12:56,484 INFO c.n.p.EnquiryResource [http-nio-8080-exec-254] All enquries were fetched from the database successfully!
+2020-05-26 18:13:17,316 INFO c.n.p.EnquiryResource [http-nio-8080-exec-245] Enquiry was fetched from the database successfully!
+2020-05-26 18:13:17,325 INFO c.n.p.EnquiryResource [http-nio-8080-exec-244] All enquries were fetched from the database successfully!
+2020-05-26 18:13:38,287 INFO c.n.p.EnquiryResource [http-nio-8080-exec-258] Enquiry was fetched from the database successfully!
+2020-05-26 18:13:38,301 INFO c.n.p.EnquiryResource [http-nio-8080-exec-245] All enquries were fetched from the database successfully!
+2020-05-26 18:38:33,717 INFO c.n.p.EnquiryResource [http-nio-8080-exec-256] Enquiry was fetched from the database successfully!
+2020-05-26 18:38:33,932 INFO c.n.p.EnquiryResource [http-nio-8080-exec-263] All enquries were fetched from the database successfully!
+2020-05-26 18:41:57,274 INFO c.n.p.EnquiryResource [http-nio-8080-exec-268] Enquiry was fetched from the database successfully!
+2020-05-26 18:41:57,286 INFO c.n.p.EnquiryResource [http-nio-8080-exec-269] All enquries were fetched from the database successfully!
+2020-05-26 18:42:24,781 INFO c.n.p.EnquiryResource [http-nio-8080-exec-268] Enquiry was fetched from the database successfully!
+2020-05-26 18:42:24,797 INFO c.n.p.EnquiryResource [http-nio-8080-exec-269] All enquries were fetched from the database successfully!
+2020-05-26 18:49:43,818 INFO c.n.p.EnquiryResource [http-nio-8080-exec-268] All enquries were fetched from the database successfully!
+2020-05-26 18:49:47,951 INFO c.n.p.EnquiryResource [http-nio-8080-exec-280] Enquiry was fetched from the database successfully!
+2020-05-26 18:49:47,963 INFO c.n.p.EnquiryResource [http-nio-8080-exec-266] All enquries were fetched from the database successfully!
+2020-05-26 18:52:42,684 INFO c.n.p.EnquiryResource [http-nio-8080-exec-286] Enquiry was fetched from the database successfully!
+2020-05-26 18:52:42,777 INFO c.n.p.EnquiryResource [http-nio-8080-exec-281] All enquries were fetched from the database successfully!
+2020-05-26 18:54:18,963 INFO c.n.p.EnquiryResource [http-nio-8080-exec-291] Enquiry was fetched from the database successfully!
+2020-05-26 18:54:19,177 INFO c.n.p.EnquiryResource [http-nio-8080-exec-289] All enquries were fetched from the database successfully!
+2020-05-26 19:04:04,494 INFO c.n.p.EnquiryResource [http-nio-8080-exec-296] Enquiry was fetched from the database successfully!
+2020-05-26 19:04:04,615 INFO c.n.p.EnquiryResource [http-nio-8080-exec-298] All enquries were fetched from the database successfully!
+2020-05-26 19:04:09,759 INFO c.n.p.EnquiryResource [http-nio-8080-exec-303] Enquiry was fetched from the database successfully!
+2020-05-26 19:04:09,768 INFO c.n.p.EnquiryResource [http-nio-8080-exec-296] All enquries were fetched from the database successfully!
+2020-05-26 19:04:30,380 INFO c.n.p.EnquiryResource [http-nio-8080-exec-303] Enquiry was fetched from the database successfully!
+2020-05-26 19:04:30,390 INFO c.n.p.EnquiryResource [http-nio-8080-exec-296] All enquries were fetched from the database successfully!
+2020-05-26 21:29:30,937 INFO c.n.p.EnquiryResource [http-nio-8080-exec-315] All enquries were fetched from the database successfully!
+2020-05-26 21:29:41,908 INFO c.n.p.EnquiryResource [http-nio-8080-exec-311] Enquiry was fetched from the database successfully!
+2020-05-26 21:29:47,960 INFO c.n.p.EnquiryResource [http-nio-8080-exec-313] Enquiry was fetched from the database successfully!
+2020-05-26 21:30:09,449 INFO c.n.p.EnquiryResource [http-nio-8080-exec-316] All enquries were fetched from the database successfully!
+2020-05-26 21:30:21,826 INFO c.n.p.EnquiryResource [http-nio-8080-exec-317] Enquiry was fetched from the database successfully!
+2020-05-26 21:32:58,290 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] Enquiry was fetched from the database successfully!
+2020-05-26 21:33:05,096 INFO c.n.p.EnquiryResource [http-nio-8080-exec-307] Enquiry was fetched from the database successfully!
+2020-05-26 21:33:09,658 INFO c.n.p.EnquiryResource [http-nio-8080-exec-318] Enquiry was fetched from the database successfully!
+2020-05-26 21:33:20,131 INFO c.n.p.EnquiryResource [http-nio-8080-exec-310] Enquiry was fetched from the database successfully!
+2020-05-26 21:33:33,082 INFO c.n.p.EnquiryResource [http-nio-8080-exec-320] Enquiry was fetched from the database successfully!
+2020-05-26 21:34:14,383 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 21:42:26,870 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] Enquiry was fetched from the database successfully!
+2020-05-26 21:42:26,910 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] All enquries were fetched from the database successfully!
+2020-05-26 21:42:30,689 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 21:42:30,701 INFO c.n.p.EnquiryResource [http-nio-8080-exec-329] All enquries were fetched from the database successfully!
+2020-05-26 21:44:21,016 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] Enquiry was fetched from the database successfully!
+2020-05-26 21:44:21,024 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 21:44:33,330 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] Enquiry was fetched from the database successfully!
+2020-05-26 21:44:33,336 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] All enquries were fetched from the database successfully!
+2020-05-26 21:44:40,148 INFO c.n.p.EnquiryResource [http-nio-8080-exec-330] Enquiry was fetched from the database successfully!
+2020-05-26 21:44:40,162 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] All enquries were fetched from the database successfully!
+2020-05-26 21:45:19,176 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 21:45:19,185 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] All enquries were fetched from the database successfully!
+2020-05-26 21:45:47,794 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 21:45:47,801 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] All enquries were fetched from the database successfully!
+2020-05-26 21:45:57,535 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] Enquiry was fetched from the database successfully!
+2020-05-26 21:45:57,554 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] All enquries were fetched from the database successfully!
+2020-05-26 21:46:01,627 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] Enquiry was fetched from the database successfully!
+2020-05-26 21:46:01,638 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] All enquries were fetched from the database successfully!
+2020-05-26 21:47:31,712 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] Enquiry was fetched from the database successfully!
+2020-05-26 21:47:31,726 INFO c.n.p.EnquiryResource [http-nio-8080-exec-330] All enquries were fetched from the database successfully!
+2020-05-26 21:47:45,151 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] Enquiry was fetched from the database successfully!
+2020-05-26 21:47:45,160 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] All enquries were fetched from the database successfully!
+2020-05-26 21:48:51,294 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] Enquiry was fetched from the database successfully!
+2020-05-26 21:48:51,302 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] All enquries were fetched from the database successfully!
+2020-05-26 21:51:33,029 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] Enquiry was fetched from the database successfully!
+2020-05-26 21:51:33,040 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] All enquries were fetched from the database successfully!
+2020-05-26 21:52:01,243 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 21:52:01,250 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] All enquries were fetched from the database successfully!
+2020-05-26 21:52:17,483 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] Enquiry was fetched from the database successfully!
+2020-05-26 21:52:17,491 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] All enquries were fetched from the database successfully!
+2020-05-26 22:00:13,981 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] Enquiry was fetched from the database successfully!
+2020-05-26 22:00:13,989 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] All enquries were fetched from the database successfully!
+2020-05-26 22:00:48,352 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] Enquiry was fetched from the database successfully!
+2020-05-26 22:00:48,364 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] All enquries were fetched from the database successfully!
+2020-05-26 22:08:33,401 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] Enquiry was fetched from the database successfully!
+2020-05-26 22:08:33,410 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] All enquries were fetched from the database successfully!
+2020-05-26 22:09:15,746 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] Enquiry was fetched from the database successfully!
+2020-05-26 22:09:15,753 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:13:22,736 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] Enquiry was fetched from the database successfully!
+2020-05-26 22:13:22,745 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:14:51,185 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] Enquiry was fetched from the database successfully!
+2020-05-26 22:14:51,214 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] All enquries were fetched from the database successfully!
+2020-05-26 22:17:06,683 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 22:17:06,696 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] All enquries were fetched from the database successfully!
+2020-05-26 22:17:12,087 INFO c.n.p.EnquiryResource [http-nio-8080-exec-326] Enquiry was fetched from the database successfully!
+2020-05-26 22:17:12,092 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:18:13,006 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] Enquiry was fetched from the database successfully!
+2020-05-26 22:18:13,016 INFO c.n.p.EnquiryResource [http-nio-8080-exec-323] All enquries were fetched from the database successfully!
+2020-05-26 22:18:29,569 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] Enquiry was fetched from the database successfully!
+2020-05-26 22:18:29,576 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] All enquries were fetched from the database successfully!
+2020-05-26 22:18:42,051 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] Enquiry was fetched from the database successfully!
+2020-05-26 22:18:42,059 INFO c.n.p.EnquiryResource [http-nio-8080-exec-324] All enquries were fetched from the database successfully!
+2020-05-26 22:24:18,635 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 22:24:18,643 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:24:51,393 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 22:24:51,398 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:27:45,235 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 22:27:45,244 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:28:10,540 INFO c.n.p.EnquiryResource [http-nio-8080-exec-329] Enquiry was fetched from the database successfully!
+2020-05-26 22:28:10,545 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] All enquries were fetched from the database successfully!
+2020-05-26 22:28:28,453 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 22:28:28,461 INFO c.n.p.EnquiryResource [http-nio-8080-exec-325] All enquries were fetched from the database successfully!
+2020-05-26 22:28:37,591 INFO c.n.p.EnquiryResource [http-nio-8080-exec-321] Enquiry was fetched from the database successfully!
+2020-05-26 22:28:37,597 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] All enquries were fetched from the database successfully!
+2020-05-26 22:30:21,162 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 22:30:21,170 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:32:00,987 INFO c.n.p.EnquiryResource [http-nio-8080-exec-322] Enquiry was fetched from the database successfully!
+2020-05-26 22:32:00,996 INFO c.n.p.EnquiryResource [http-nio-8080-exec-328] All enquries were fetched from the database successfully!
+2020-05-26 22:32:05,423 INFO c.n.p.EnquiryResource [http-nio-8080-exec-327] Enquiry was fetched from the database successfully!
+2020-05-26 22:32:05,432 INFO c.n.p.EnquiryResource [http-nio-8080-exec-329] All enquries were fetched from the database successfully!
+2020-05-26 23:03:32,138 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] Enquiry was fetched from the database successfully!
+2020-05-26 23:03:32,291 INFO c.n.p.EnquiryResource [http-nio-8080-exec-334] All enquries were fetched from the database successfully!
+2020-05-26 23:03:39,165 INFO c.n.p.EnquiryResource [http-nio-8080-exec-338] Enquiry was fetched from the database successfully!
+2020-05-26 23:03:39,175 INFO c.n.p.EnquiryResource [http-nio-8080-exec-340] All enquries were fetched from the database successfully!
+2020-05-26 23:03:57,830 INFO c.n.p.EnquiryResource [http-nio-8080-exec-331] All enquries were fetched from the database successfully!
+2020-05-26 23:08:10,135 INFO c.n.p.EnquiryResource [http-nio-8080-exec-338] All enquries were fetched from the database successfully!
+2020-05-26 23:09:04,931 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] All enquries were fetched from the database successfully!
+2020-05-26 23:11:20,855 INFO c.n.p.EnquiryResource [http-nio-8080-exec-335] All enquries were fetched from the database successfully!
+2020-05-26 23:11:24,010 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] All enquries were fetched from the database successfully!
+2020-05-26 23:11:30,809 INFO c.n.p.EnquiryResource [http-nio-8080-exec-334] All enquries were fetched from the database successfully!
+2020-05-26 23:17:08,257 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] All enquries were fetched from the database successfully!
+2020-05-26 23:17:13,246 INFO c.n.p.EnquiryResource [http-nio-8080-exec-333] All enquries were fetched from the database successfully!
+2020-05-26 23:17:18,556 INFO c.n.p.EnquiryResource [http-nio-8080-exec-337] All enquries were fetched from the database successfully!
+2020-05-26 23:17:30,902 INFO c.n.p.EnquiryResource [http-nio-8080-exec-336] All enquries were fetched from the database successfully!
+2020-05-26 23:19:43,973 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] All enquries were fetched from the database successfully!
+2020-05-26 23:19:49,863 INFO c.n.p.EnquiryResource [http-nio-8080-exec-334] All enquries were fetched from the database successfully!
+2020-05-26 23:19:50,022 INFO c.n.p.EnquiryResource [http-nio-8080-exec-338] All enquries were fetched from the database successfully!
+2020-05-26 23:20:15,111 INFO c.n.p.EnquiryResource [http-nio-8080-exec-331] All enquries were fetched from the database successfully!
+2020-05-26 23:20:25,585 INFO c.n.p.EnquiryResource [http-nio-8080-exec-340] All enquries were fetched from the database successfully!
+2020-05-26 23:20:58,780 INFO c.n.p.EnquiryResource [http-nio-8080-exec-331] All enquries were fetched from the database successfully!
+2020-05-26 23:28:04,753 INFO c.n.p.EnquiryResource [http-nio-8080-exec-340] All enquries were fetched from the database successfully!
+2020-05-26 23:30:45,328 INFO c.n.p.EnquiryResource [http-nio-8080-exec-331] Enquiry was fetched from the database successfully!
+2020-05-26 23:30:45,335 INFO c.n.p.EnquiryResource [http-nio-8080-exec-332] All enquries were fetched from the database successfully!
+2020-05-26 23:35:17,653 INFO c.n.p.EnquiryResource [http-nio-8080-exec-336] Enquiry was fetched from the database successfully!
+2020-05-26 23:35:17,660 INFO c.n.p.EnquiryResource [http-nio-8080-exec-331] All enquries were fetched from the database successfully!
+2020-05-26 23:35:24,019 INFO c.n.p.EnquiryResource [http-nio-8080-exec-340] Enquiry was fetched from the database successfully!
+2020-05-26 23:35:24,028 INFO c.n.p.EnquiryResource [http-nio-8080-exec-336] All enquries were fetched from the database successfully!
+2020-05-26 23:35:40,859 INFO c.n.p.EnquiryResource [http-nio-8080-exec-338] All enquries were fetched from the database successfully!
+2020-05-27 00:23:34,745 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-334] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:24:13,972 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-335] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 00:24:13,980 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-338] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:24:28,990 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-333] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:36:16,289 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-332] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:36:26,616 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-336] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 00:36:26,624 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-334] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:36:32,517 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-339] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:36:36,963 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-336] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:37:15,239 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-331] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 00:37:15,246 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-338] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 00:38:14,686 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-333] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:01:23,883 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-331] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:01:23,891 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-338] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:01:28,656 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-336] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:01:31,880 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-331] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:01:35,022 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-340] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:01:35,028 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-336] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:01:42,749 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-337] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:03:05,109 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-340] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:03:05,119 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-336] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:04:07,857 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-337] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:04:07,864 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-332] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:05:07,417 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-5] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:05:09,905 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-4] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:05:09,920 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-10] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:05:28,069 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-8] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:05:28,087 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-6] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:06:57,766 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-3] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:06:57,777 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-9] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:10:31,147 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-6] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:10:36,693 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-9] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:10:36,709 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-10] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:13:16,503 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-12] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:14:07,854 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-14] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:14:07,867 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-15] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:14:09,233 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-17] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:14:09,244 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-19] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:14:10,491 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-20] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:14:10,501 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-11] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:14:13,062 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-13] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:14:13,075 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-18] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:16:47,197 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-4] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:16:47,470 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-6] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:20:34,761 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-9] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:21:59,865 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-7] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:22:42,978 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-1] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:23:41,925 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-4] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:24:11,206 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-1] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:24:45,478 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-6] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:27:06,279 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-8] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:27:33,890 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-3] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:27:52,657 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-1] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:30:19,873 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-7] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:41:34,981 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-13] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:41:43,121 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-4] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 01:41:43,141 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-1] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:43:46,551 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-17] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:44:17,116 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-19] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:44:32,093 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-1] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:44:37,617 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-13] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:52:33,313 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-20] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:54:05,694 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-19] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:55:22,713 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-15] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:55:33,790 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-21] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:55:53,842 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-19] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:56:05,735 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-22] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:58:29,800 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-16] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 01:58:51,264 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-18] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:01:41,600 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-18] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:03:12,447 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-25] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:10:51,813 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-25] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:10:56,669 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-32] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:11:02,834 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-29] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:11:12,904 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-23] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:11:28,481 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-33] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:11:28,497 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-37] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:12:14,124 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-35] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:12:14,136 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-39] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:12:19,645 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-40] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:12:19,656 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-35] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:12:40,530 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-37] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:12:40,551 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-40] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:12:42,261 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-35] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:12:42,270 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-38] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:13:22,376 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-37] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:13:22,389 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-40] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:13:28,254 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-36] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:13:28,268 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-42] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:13:32,751 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-37] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:13:32,760 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-40] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:13:43,442 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-38] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:14:33,605 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-41] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:14:36,993 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-39] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:19:08,554 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-36] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:19:47,946 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-35] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:19:53,819 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-34] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:19:59,248 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-44] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:20:23,648 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-36] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:20:26,320 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-41] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:21:32,570 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-46] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:22:01,577 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-47] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:40:20,628 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-53] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:40:33,584 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-57] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:40:33,599 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-59] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:46:34,747 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-54] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:49:05,922 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-59] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:50:57,943 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-53] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:00,335 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-55] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:07,620 INFO c.n.p.TourDayResource [http-nio-8080-exec-53] All Tours Days were fetched from the database successfully!
+2020-05-27 02:51:27,085 INFO c.n.p.TourDayResource [http-nio-8080-exec-57] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:27,097 INFO c.n.p.TourDayResource [http-nio-8080-exec-58] All Tours Days were fetched from the database successfully!
+2020-05-27 02:51:29,874 INFO c.n.p.TourDayResource [http-nio-8080-exec-60] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:29,885 INFO c.n.p.TourDayResource [http-nio-8080-exec-53] All Tours Days were fetched from the database successfully!
+2020-05-27 02:51:39,228 INFO c.n.p.TourDayResource [http-nio-8080-exec-55] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:39,239 INFO c.n.p.TourDayResource [http-nio-8080-exec-57] All Tours Days were fetched from the database successfully!
+2020-05-27 02:51:42,700 INFO c.n.p.TourDayResource [http-nio-8080-exec-52] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:51:42,711 INFO c.n.p.TourDayResource [http-nio-8080-exec-60] All Tours Days were fetched from the database successfully!
+2020-05-27 02:52:37,211 INFO c.n.p.TourDayResource [http-nio-8080-exec-61] Tour and Ride-Out was fetched from the database successfully!
+2020-05-27 02:52:37,230 INFO c.n.p.TourDayResource [http-nio-8080-exec-55] All Tours Days were fetched from the database successfully!
+2020-05-27 02:56:31,574 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-61] All Tours and Ride-Outs were fetched from the database successfully!
+2020-05-27 02:56:34,283 INFO c.n.p.TourRideOutResource [http-nio-8080-exec-57] Tour and Ride-Out was fetched from the database successfully!

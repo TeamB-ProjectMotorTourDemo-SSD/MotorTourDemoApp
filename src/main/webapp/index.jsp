@@ -264,7 +264,7 @@
 			<div class="col col-lg-4 col-sm-8 mx-sm-auto">
 				<h4 class="mb-3 txt-blue">Send us your enquiries</h4>
 				<form id="contactForm" name="contactForm"
-					action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry"
+					action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry"
 					method="post">
 					<div class="row">
 						<div class="col form-group">

@@ -93,6 +93,27 @@ public class TourDayResource {
 		
 	}
 	
+	@GET
+	@Path("specific/{tourID}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response getSpecificTourDay(@PathParam("tourID") String tourID) {
+		
+		int tourid = Integer.parseInt(tourID);
+		
+		TourDay tourDay = TourDayDao.getInstance().getSpecificTourDay(tourid);
+		
+		Gson gson = new Gson();
+		String jsonString = gson.toJson(tourDay);
+		
+		logger.info("Tour and Ride-Out was fetched from the database successfully!");
+		
+		return Response
+				.status(200)
+				.entity(jsonString)
+				.build();
+		
+	}
+	
 	
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)

@@ -14,7 +14,7 @@
 </head>
 <body id="registrationPage" >
 <div class="container my-5">
-<form action="http://localhost:8080/projectmotortourdemo/motorapi/user" class="row bg-White" method="post" id="registrationForm" name="registrationForm">
+<form action="https://motor-tour-demo-teamb.herokuapp.com/motorapi/user" class="row bg-White" method="post" id="registrationForm" name="registrationForm">
 
 	<div class="col-12" >
     <h1>Register</h1>
@@ -83,7 +83,7 @@
     <hr>
     <p class="col-12 text-center">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <button class="btn btn-primary"  type="submit" style=" margin: 10px 0px;">Register</button>
+    <button class="btn btn-primary button"  type="submit" style=" margin: 10px 0px;">Register</button>
   </div>
   
   <div class="col-12 text-center signin bg-White">

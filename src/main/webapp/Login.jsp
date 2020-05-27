@@ -71,7 +71,7 @@ span.psw {
 </style>
 </head>
 <body>
-<form id = "loginform" method ="post" action="loginProcess.jsp">
+<form id = "loginform" action =" https://motor-tour-demo-teamb.herokuapp.com/motorapi/login" method ="post">
 
 
   <div class="container" style="background-image: url('img/login.jpg');"> 

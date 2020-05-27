@@ -115,7 +115,7 @@ public class TourRideOutResource {
 		tourRideOut.setLegalRequirements(legalRequirements);
 		tourRideOut.setTourLeaderFirstName(tourLeaderFirstName);
 		tourRideOut.setTourLeaderLastName(tourLeaderLastName);
-		tourRideOut.setAvailability(TOUR_AVAILABILITY.valueOf(availability));
+		tourRideOut.setAvailability(TOUR_AVAILABILITY.getEnumByString(availability));
 		tourRideOut.setStartLocation(startLocation);
 		tourRideOut.setEndLocation(endLocation);
 		

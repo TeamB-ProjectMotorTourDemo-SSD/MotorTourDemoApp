@@ -8,11 +8,11 @@ public class Configs {
 	
 	public static Connection getDbConnection() throws ClassNotFoundException, SQLException {
 		
-		String connURL = "jdbc:mysql://localhost:3306/motortoursdb?serverTimezone=UTC";
-		
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection conn = DriverManager.getConnection(connURL, "root", "");
-		return conn;
+//		String connURL = "jdbc:mysql://localhost:3306/motortoursdb?serverTimezone=UTC";
+//		
+//		Class.forName("com.mysql.cj.jdbc.Driver");
+//		Connection conn = DriverManager.getConnection(connURL, "root", "");
+//		return conn;
 		
 //		String connURL = "jdbc:postgresql://" + "ec2-54-157-78-113.compute-1.amazonaws.com:5432" + "/d6vbmuui85j2u0";
 //		
@@ -20,11 +20,11 @@ public class Configs {
 //		Connection conn = DriverManager.getConnection(connURL, "ggozlywqjjlyyr", "21fa49aa62848d09847a0141704a2b8b0790ec997489f50a2c57da82e700b716");
 //		return conn;
 		
-//		String connURL = "jdbc:mysql://" + "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306" + "/hfdn6x8hivpyhmji";
-//		
-//		Class.forName("com.mysql.cj.jdbc.Driver");
-//		Connection conn = DriverManager.getConnection(connURL, "d2zkoxxrxhrtqcid", "ear0qlb83eod2b4f");
-//		return conn;
+		String connURL = "jdbc:mysql://" + "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306" + "/hfdn6x8hivpyhmji";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection conn = DriverManager.getConnection(connURL, "d2zkoxxrxhrtqcid", "ear0qlb83eod2b4f");
+		return conn;
 	}
 
 }

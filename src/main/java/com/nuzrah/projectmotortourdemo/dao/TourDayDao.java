@@ -101,6 +101,42 @@ private static TourDayDao newInstance = new TourDayDao();
 		
 	}
 	
+	
+	//Fetching data based on foreign key from database.
+		public TourDay getSpecificTourDay(int id){
+			TourDay tourDay = new TourDay();
+			
+			
+			try {
+				
+				Connection conn = Configs.getDbConnection();
+				
+				String sql = "SELECT * FROM tbl_tour_day WHERE tourID = ?";//Query to be execute
+				PreparedStatement preparedStatement = conn.prepareStatement(sql);
+				preparedStatement.setInt(1, id); //binding the parameter value, 1 is for specify first parameter.
+				
+				ResultSet resultSet = preparedStatement.executeQuery(); //Query execution.
+				
+				while(resultSet.next()) {
+					
+					tourDay.setTourDayID(resultSet.getInt("tourDayID"));
+					tourDay.setTourID(resultSet.getInt("tourID"));
+					tourDay.setStartHotel(resultSet.getString("startHotel"));
+					tourDay.setEndHotel(resultSet.getString("endHotel"));
+					tourDay.setRouteNote(resultSet.getString("routeNote"));
+					tourDay.setRouteMap(resultSet.getString("routeMap"));
+					
+				}
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("Error : "+e.getMessage());
+			}
+			
+			return tourDay;
+			
+		}
+	
 	public boolean add(TourDay tourDay) throws ClassNotFoundException, SQLException {
 		
 		if(tourDay != null) {
