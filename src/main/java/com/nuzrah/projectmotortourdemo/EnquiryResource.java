@@ -4,8 +4,6 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-//import javax.ws.rs.Consumes;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -97,7 +95,6 @@ public class EnquiryResource {
 	}
 	
 	@POST
-	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	@Produces(MediaType.APPLICATION_JSON)
 	public void addEnquiry(	@FormParam("firstName") String firstName,
 							@FormParam("lastName") String lastName,
@@ -121,78 +118,5 @@ public class EnquiryResource {
 	
 	}
 	
-//	@PUT
-//	@Path("update/{enquiryID}")
-//	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public void updateEnquiry(	@PathParam("enquiryID") int enquiryID,
-//								@FormParam("firstName") String firstName,
-//								@FormParam("lastName") String lastName,
-//								@FormParam("enquiryCategory") String enquiryCategory,
-//								@FormParam("enquiryDescription") String enquiryDescription,
-//								@FormParam("phoneNumber") int phoneNumber,
-//								@FormParam("email") String email) throws ClassNotFoundException, SQLException {
-//		
-//		Enquiry enquiry = new Enquiry();
-//		
-//		enquiry.setFirstName(firstName);
-//		enquiry.setLastName(lastName);
-//		enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.getEnumByString(enquiryCategory));
-//		enquiry.setEnquiryDescription(enquiryDescription);
-//		enquiry.setPhoneNumber(phoneNumber);
-//		enquiry.setEmail(email);
-//		
-//		EnquiryDao.getInstance().update(enquiry, enquiryID);
-//		
-//		logger.info("Enquiry was submitted to the database successfully!");
-//	
-//	}
-	
-//	@POST
-//	@Path("/update")
-//	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public void updateEnquiry(	@FormParam("enquryID") int enquiryID,
-//								@FormParam("firstName") String firstName,
-//								@FormParam("lastName") String lastName,
-//								@FormParam("enquiryCategory") String enquiryCategory,
-//								@FormParam("enquiryDescription") String enquiryDescription,
-//								@FormParam("phoneNumber") int phoneNumber,
-//								@FormParam("email") String email) throws ClassNotFoundException, SQLException {
-//		
-//		Enquiry enquiry = new Enquiry();
-//		
-//		enquiry.setEnquiryID(enquiryID);
-//		enquiry.setFirstName(firstName);
-//		enquiry.setLastName(lastName);
-//		enquiry.setEnquiryCategory(ENQUIRY_CATEGORY.getEnumByString(enquiryCategory));
-//		enquiry.setEnquiryDescription(enquiryDescription);
-//		enquiry.setPhoneNumber(phoneNumber);
-//		enquiry.setEmail(email);
-//		
-//		EnquiryDao.getInstance().updateTest(enquiry);
-//		
-//		logger.info("Enquiry was submitted to the database successfully!");
-//	
-//	}
-	
-//	@DELETE
-//	@Path("{enquiryID}")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public void deleteEnquiry(@PathParam("enquiryID") int enquiryID) throws ClassNotFoundException, SQLException {
-//		
-//		Enquiry enquiry = new Enquiry();
-//		
-//		enquiry.setEnquiryID(enquiryID);
-//		
-//			
-//		
-//		EnquiryDao.getInstance().delete(enquiryID);
-//		
-//		
-//		logger.info("Enquiry was fetched from the database successfully!");
-//		
-//		
-//	}
 
 }
