@@ -14,13 +14,18 @@
 </head>
 <body id="registrationPage" >
 <div class="container my-5">
-<form action="/Registration.jsp" class="row bg-White" method="post" id="registrationForm" name="registrationForm">
-  <div class="col-12" >
+<form action="http://localhost:8080/projectmotortourdemo/motorapi/user" class="row bg-White" method="post" id="registrationForm" name="registrationForm">
+
+	<div class="col-12" >
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     
-    
+    <div class=" form-group">
+    <label for="UserRole"><b>User Role</b></label>
+    <input type="text" placeholder="CUSTOMER" name="CUSTOMER" disabled="disabled" required readonly>
+	</div>
+	
 	<div class=" form-group">
     <label for="Firstname"><b>First name</b></label>
     <input type="text" placeholder="Firstname" name="Firstname" required>

@@ -69,7 +69,7 @@ public class EnquiryDao {
 	}
 	
 	//Fetching a single data from database.
-	public Enquiry get(int id){
+	public static Enquiry get(int id){
 		Enquiry enquiry = new Enquiry();
 		
 		
@@ -102,6 +102,35 @@ public class EnquiryDao {
 		return enquiry;
 		
 	}
+	
+	//Fetching a single data from database.
+		public static Enquiry get(String email){
+			Enquiry enquiry = new Enquiry();
+			
+			
+			try {
+				
+				Connection conn = Configs.getDbConnection();
+				
+				String sql = "SELECT `phoneNumber` FROM tbl_enquiry WHERE `email` = ?";//Query to be execute
+				PreparedStatement preparedStatement = conn.prepareStatement(sql);
+				preparedStatement.setString(1, "email"); //binding the parameter value, 1 is for specify first parameter.
+				
+				ResultSet resultSet = preparedStatement.executeQuery(); //Query execution.
+				
+				while(resultSet.next()) {
+					
+					enquiry.setEmail(resultSet.getString("email"));
+				}
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+				System.out.println("Error : "+e.getMessage());
+			}
+			
+			return enquiry;
+			
+		}
 	
 	public boolean add(Enquiry enquiry) throws ClassNotFoundException, SQLException {
 		

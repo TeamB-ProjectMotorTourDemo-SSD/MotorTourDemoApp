@@ -71,7 +71,7 @@ public class TourRideOutDao {
 	}
 	
 	//Fetching a single data from database.
-	public TourRideOut get(int id){
+	public static TourRideOut get(int id){
 		TourRideOut tourRideOut = new TourRideOut();
 		
 		

@@ -71,7 +71,7 @@ span.psw {
 </style>
 </head>
 <body>
-<form id = "loginform" action ="http://localhost:8080/MotorTourRide/motorapi/login" method ="post">
+<form id = "loginform" method ="post" action="loginProcess.jsp">
 
 
   <div class="container" style="background-image: url('img/login.jpg');"> 
@@ -81,15 +81,12 @@ span.psw {
    <img src="img/user.jpg" alt="User" class="avatar">
  </div>
 <label for="username"><b>Email ID</b></label>
- <input type="text" placeholder="emailid" name="emailid" id="user" required>
+ <input type="text" placeholder="emailid" name="email" id="user" required>
    <label for="psw"><b>Password</b></label>
-   <input type="password" placeholder="Password" name="Pass" id="Pass" required>
+   <input type="password" placeholder="Password" name="password" id="Pass" required>
    <button class="btn btn-primary" onClick="formSubmit(document.getElementById('Pass').value, document.getElementById('Einr').value);return false;" type="submit" style=" margin: 10px 0px;">Login</button>
  </div>
  </div>
   </form>
-
-
-
 </body>
 </html>
