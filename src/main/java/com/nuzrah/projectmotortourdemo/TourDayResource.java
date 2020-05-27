@@ -94,13 +94,13 @@ public class TourDayResource {
 	}
 	
 	@GET
-	@Path("{tourID}")
+	@Path("specific/{tourID}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getSpecificTourDay(@PathParam("tourID") String tourID) {
 		
 		int tourid = Integer.parseInt(tourID);
 		
-		TourDay tourDay = TourDayDao.getInstance().get(tourid);
+		TourDay tourDay = TourDayDao.getInstance().getSpecificTourDay(tourid);
 		
 		Gson gson = new Gson();
 		String jsonString = gson.toJson(tourDay);
