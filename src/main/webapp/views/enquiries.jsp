@@ -22,7 +22,7 @@
 </head>
 <body id="enquiriesPage">
 <!-- 	<form -->
-<!-- 		action="http://localhost:8080/projectmotortourdemo/motorapi/enquiry" -->
+<!-- 		action=" https://motor-tour-demo-teamb.herokuapp.com/motorapi/enquiry" -->
 <!-- 		method="post" id="enquiryForm" name="enquiryForm"> -->
 
 		<div class="container-fluid p-5">
